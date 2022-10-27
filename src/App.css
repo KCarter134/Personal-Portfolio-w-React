@@ -1,5 +1,7 @@
-@import './components/Nav/navbar.css';
-@import './components/About/about.css';
+@import './assets/css/navbar.css';
+@import './assets/css/about.css';
+@import './assets/css/portfolio.css';
+@import './assets/css/contact.css';
 
 
 .App {

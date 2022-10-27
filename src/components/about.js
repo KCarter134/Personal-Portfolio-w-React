@@ -23,14 +23,14 @@ export default function About() {
                 journey of fullstack development
               </p>
               <p className="about-desc-extra">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                Laborum, voluptas natus?
+                With a passion for web development and a history in front end, I intend
+                on utilizing the skills obtained in both traditional schooling and skills 
+                learned in my free time!
               </p>
             </div>
 
           </div>
-          
+
         </div>
       </div>
     </section>

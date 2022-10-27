@@ -1,18 +1,23 @@
 import React from 'react';
-import Nav from './components/Nav/navbar';
-import About from './components/About/about';
+import Nav from './components/navbar';
+import About from './components/about';
 import Portfolio from './components/portfolio';
-// import Contact from './components/contact';
+import Contact from './components/contact';
 import './App.css';
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
+    <>
+    <Nav />
     <div className="App">
-      <Nav />
-      <About />
-      <Portfolio />
-      {/* <Contact /> */}
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
+    </>
   );
 }
 
