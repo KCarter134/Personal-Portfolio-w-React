@@ -1,0 +1,26 @@
+.portfolio-section {
+    background-color: #1f1f1f;
+    height: 90vh;
+}
+
+.project-section-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.project-links {
+    height: 20vh;
+    width: 30vw;
+    margin: 50px;
+}
+
+.image-gallery,
+.images-desc {
+    height: 100%;
+    width: 100%;
+}
+
+.project-section-wrapper a {
+    text-decoration: none;
+}

@@ -1,34 +1,50 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Fullstack Quiz",
+      subtitle: "HTML, CSS, JavaScript",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "Utilizes: localStorage, Mapping, Timers, and Modals",
+      image: "./fullstackQuiz.png",
+      link: "https://kcarter134.github.io/Fullstack-Quiz-Module-4",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Random Password Generator",
+      subtitle: "HTML, CSS, JavaScript",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
+        "Utilizes: Arrays, Query Selectors, While Loops, and 'if' statements",
+      image: "./passGen.png",
+      link: "https://kcarter134.github.io/Random-Password-Generator",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Quiz Project",
+      subtitle: "HTML, CSS, JavaScript",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+        "Utilizes: API's, Loops, Bulma.css, Modals, Local Storage, and Re-usable functions",
+      image: "./QuizProject.png",
+      link: "https://bpiper91.github.io/outfoxed",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "ReadMe generator",
+      subtitle: "JavaScript, Node.js",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
+        "Utilizes: JavaScript and Node.js",
+      image: "./readme.jpg",
+      link: "https://drive.google.com/file/d/1pBeGDYhPawgeJs_zC48rb8Z3LHJv4s-4/view",
     },
+    {
+      title: "Stock Buddy API",
+      subtitle: "JavaScript, SQL, Handlebars.js, Node.js, Express.js",
+      description:
+        "Utilizes: API's, Handlebars framework, SQL database, Servers",
+      image: "./stockbuddy.png",
+      link: "https://ericksonvik.github.io/Stock_Buddy",
+    },
+    {
+      title: "Stock Buddy API",
+      subtitle: "JavaScript, SQL, Handlebars.js, Node.js, Express.js",
+      description:
+        "Utilizes: API's, Handlebars framework, SQL database, Servers",
+      image: "./QuizProject.png",
+      link: "https://ericksonvik.github.io/Stock_Buddy",
+    }
   ];

@@ -3,7 +3,7 @@ import { projects } from "../data";
 
 export default function Projects(props) {
   return (
-    <section id="projects" className="portolio-section">
+    <section id="projects" className="portfolio-section">
       <div className="portfolio-section-wrapper">
         <div className="intro-desc-wrapper">
           <p className="intro-desc">
@@ -25,13 +25,13 @@ export default function Projects(props) {
                   src={project.image}
                 />
                 <div className="project-info-wrapper">
-                  <h2 className="project-subtitle">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="project-title">
+                  <div className="project-title">
                     {project.title}
-                  </h1>
-                  <p className="project-desc">{project.description}</p>
+                  </div>
+                  <div className="project-subtitle">
+                    {project.subtitle}
+                  </div>
+                  <div className="project-desc">{project.description}</div>
                 </div>
               </div>
             </a>
