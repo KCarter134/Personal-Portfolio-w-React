@@ -12,11 +12,11 @@ function App() {
     <Nav />
     <div className="App">
       <Routes>
-        <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
+    <About />
     </>
   );
 }

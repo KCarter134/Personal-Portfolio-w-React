@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: "Fullstack Quiz",
-      subtitle: "HTML, CSS, JavaScript",
+      subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: localStorage, Mapping, Timers, and Modals",
       image: "./fullstackQuiz.png",
@@ -9,7 +9,7 @@ export const projects = [
     },
     {
       title: "Random Password Generator",
-      subtitle: "HTML, CSS, JavaScript",
+      subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: Arrays, Query Selectors, While Loops, and 'if' statements",
       image: "./passGen.png",
@@ -17,7 +17,7 @@ export const projects = [
     },
     {
       title: "Quiz Project",
-      subtitle: "HTML, CSS, JavaScript",
+      subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: API's, Loops, Bulma.css, Modals, Local Storage, and Re-usable functions",
       image: "./QuizProject.png",
@@ -25,7 +25,7 @@ export const projects = [
     },
     {
       title: "ReadMe generator",
-      subtitle: "JavaScript, Node.js",
+      subtitle: "--JavaScript, Node.js--",
       description:
         "Utilizes: JavaScript and Node.js",
       image: "./readme.jpg",
@@ -33,18 +33,18 @@ export const projects = [
     },
     {
       title: "Stock Buddy API",
-      subtitle: "JavaScript, SQL, Handlebars.js, Node.js, Express.js",
+      subtitle: "--JavaScript, SQL, Handlebars.js, Node.js, Express.js--",
       description:
         "Utilizes: API's, Handlebars framework, SQL database, Servers",
       image: "./stockbuddy.png",
       link: "https://ericksonvik.github.io/Stock_Buddy",
     },
     {
-      title: "Stock Buddy API",
-      subtitle: "JavaScript, SQL, Handlebars.js, Node.js, Express.js",
+      title: "Employee Profile Generator",
+      subtitle: "--JavaScript, Node.js, Inquirer packages--",
       description:
-        "Utilizes: API's, Handlebars framework, SQL database, Servers",
-      image: "./QuizProject.png",
-      link: "https://ericksonvik.github.io/Stock_Buddy",
+        "Utilizes: Node.js frameworks, JavaScript, Cards",
+      image: "./employeeGen.png",
+      link: "https://github.com/KCarter134/Employee-Profile-Generator",
     }
   ];
