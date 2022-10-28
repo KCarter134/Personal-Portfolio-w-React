@@ -1,0 +1,22 @@
+.footer {
+    height: 10vh;
+    background-color: black;
+}
+
+.pic {
+    width: 3vw;
+    height: 4vh;
+}
+
+.footer-container {
+    position: relative;
+    width: 20vw;
+    height: 10vh;
+    transform: translateY(25%);
+    margin-left: 60vw;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}

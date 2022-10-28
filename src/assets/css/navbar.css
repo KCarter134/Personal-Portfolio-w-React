@@ -1,11 +1,11 @@
 header {
     background-color: rgb(43, 51, 167);
-    height: 10vh;
+    height: 8vh;
 }
 
 .flex-container {
     position: absolute;
-    top: 5%;
+    top: 4vh;
     transform:translateY(-50%);
     display: flex;
     justify-content: space-between;

@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: localStorage, Mapping, Timers, and Modals",
-      image: "./fullstackQuiz.png",
+      image: "./images/fullstackQuiz.png",
       link: "https://kcarter134.github.io/Fullstack-Quiz-Module-4",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: Arrays, Query Selectors, While Loops, and 'if' statements",
-      image: "./passGen.png",
+      image: "./images/passGen.png",
       link: "https://kcarter134.github.io/Random-Password-Generator",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: API's, Loops, Bulma.css, Modals, Local Storage, and Re-usable functions",
-      image: "./QuizProject.png",
+      image: "./images/QuizProject.png",
       link: "https://bpiper91.github.io/outfoxed",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       subtitle: "--JavaScript, Node.js--",
       description:
         "Utilizes: JavaScript and Node.js",
-      image: "./readme.jpg",
+      image: "./images/readme.jpg",
       link: "https://drive.google.com/file/d/1pBeGDYhPawgeJs_zC48rb8Z3LHJv4s-4/view",
     },
     {
@@ -36,7 +36,7 @@ export const projects = [
       subtitle: "--JavaScript, SQL, Handlebars.js, Node.js, Express.js--",
       description:
         "Utilizes: API's, Handlebars framework, SQL database, Servers",
-      image: "./stockbuddy.png",
+      image: "./images/stockbuddy.png",
       link: "https://ericksonvik.github.io/Stock_Buddy",
     },
     {
@@ -44,7 +44,7 @@ export const projects = [
       subtitle: "--JavaScript, Node.js, Inquirer packages--",
       description:
         "Utilizes: Node.js frameworks, JavaScript, Cards",
-      image: "./employeeGen.png",
+      image: "./images/employeeGen.png",
       link: "https://github.com/KCarter134/Employee-Profile-Generator",
     }
   ];

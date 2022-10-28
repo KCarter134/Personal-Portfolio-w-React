@@ -24,7 +24,7 @@ export default function About() {
               <img
                 className="personal-picture"
                 alt="personal picture"
-                src="./personal.jpg"
+                src="./images/personal.jpg"
               />
             </div>
 
