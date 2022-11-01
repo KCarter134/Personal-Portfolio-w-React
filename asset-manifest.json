@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio-w-React/static/css/main.3d0609e6.css",
-    "main.js": "/Personal-Portfolio-w-React/static/js/main.be9f1eeb.js",
+    "main.js": "/Personal-Portfolio-w-React/static/js/main.2780a02e.js",
     "static/js/787.aeca62f9.chunk.js": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js",
+    "static/media/stockbuddy.png": "/Personal-Portfolio-w-React/static/media/stockbuddy.fbdec6033a4714040466.png",
+    "static/media/QuizProject.png": "/Personal-Portfolio-w-React/static/media/QuizProject.feefdad6fea5b1203916.png",
     "static/media/personal.jpg": "/Personal-Portfolio-w-React/static/media/personal.e362b38c0f4c117dd6cc.jpg",
     "static/media/resume.png": "/Personal-Portfolio-w-React/static/media/resume.bf081e31cf75b831f671.png",
+    "static/media/employeeGen.png": "/Personal-Portfolio-w-React/static/media/employeeGen.07adb0903b3d0b1b7b75.png",
+    "static/media/readme.jpg": "/Personal-Portfolio-w-React/static/media/readme.32016419a9072aaefd15.jpg",
+    "static/media/fullstackQuiz.png": "/Personal-Portfolio-w-React/static/media/fullstackQuiz.abd21fa95b172f2ef42f.png",
+    "static/media/passGen.png": "/Personal-Portfolio-w-React/static/media/passGen.8d28e442078a5e4057eb.png",
     "static/media/github.png": "/Personal-Portfolio-w-React/static/media/github.2766567bd5e00d7a5c39.png",
     "index.html": "/Personal-Portfolio-w-React/index.html",
     "main.3d0609e6.css.map": "/Personal-Portfolio-w-React/static/css/main.3d0609e6.css.map",
-    "main.be9f1eeb.js.map": "/Personal-Portfolio-w-React/static/js/main.be9f1eeb.js.map",
+    "main.2780a02e.js.map": "/Personal-Portfolio-w-React/static/js/main.2780a02e.js.map",
     "787.aeca62f9.chunk.js.map": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d0609e6.css",
-    "static/js/main.be9f1eeb.js"
+    "static/js/main.2780a02e.js"
   ]
 }
