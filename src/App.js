@@ -16,6 +16,7 @@ function App() {
     
     <div className="App">
       <Routes>
+        <Route path="/Personal-Portfolio-w-React" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path ="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />

@@ -1,4 +1,5 @@
 import React from "react";
+import Personal from "../assets/images/personal.jpg"
 
 
 export default function About() {
@@ -25,7 +26,7 @@ export default function About() {
               <img
                 className="personal-picture"
                 alt="personal"
-                src="../../public/images/personal.jpg"
+                src={Personal}
               />
             </div>
 

@@ -1,10 +1,12 @@
+
+
 export const projects = [
     {
       title: "Fullstack Quiz",
       subtitle: "--HTML, CSS, JavaScript--",
       description:
         "Utilizes: localStorage, Mapping, Timers, and Modals",
-      image: "./images/fullstackQuiz.png",
+      image: "./assets/images/fullstackQuiz.png",
       link: "https://kcarter134.github.io/Fullstack-Quiz-Module-4",
     },
     {
