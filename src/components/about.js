@@ -23,8 +23,8 @@ export default function About() {
             <div className="image-container">
               <img
                 className="personal-picture"
-                alt="personal picture"
-                src="./images/personal.jpg"
+                alt="personal"
+                src="../../public/images/personal.jpg"
               />
             </div>
 
