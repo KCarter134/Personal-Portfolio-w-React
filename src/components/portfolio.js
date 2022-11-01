@@ -23,7 +23,7 @@ export default function Projects(props) {
                 <img
                   alt="gallery"
                   className="image-gallery"
-                  src={project.image} />
+                  src={require(`../assets${project.image}`)} />
               </div>
             
           <div className="project-info-wrapper">
