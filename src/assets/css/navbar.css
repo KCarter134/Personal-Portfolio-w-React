@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(43, 51, 167);
+    height: 8vh;
+}
+
+.flex-container {
+    position: absolute;
+    top: 4vh;
+    transform:translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 2.5vw;
+    margin-left: 3.5vw;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar {
+    left: 35vw;
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.title {
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: black;
+    border-left: 2px solid black;
+}

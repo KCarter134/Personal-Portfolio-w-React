@@ -1,0 +1,63 @@
+.portfolio-section {
+    background-color: #1f1f1f;
+    height: 100vh;
+}
+
+.intro-port {
+    color: white;
+    font-size: 6vh;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.intro-desc {
+    color: white;
+    font-size: 20px;
+}
+
+.project-section-wrapper {
+    margin-top: 3vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.project-section-wrapper a {
+    text-decoration: none;
+    color: rgb(67, 78, 230);
+}
+
+.project-links {
+    height: 20vh;
+    width: 25vw;
+    margin-top: 150px;
+}
+
+.image-gallery,
+.images-desc {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8%;
+}
+
+.image-gallery:hover,
+.images-desc:hover {
+    opacity: 75%;
+}
+
+.project-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.project-subtitle {
+    text-align: left;
+    font-weight: 500;
+    color: white;
+}
+
+.project-desc {
+    text-align: left;
+}
