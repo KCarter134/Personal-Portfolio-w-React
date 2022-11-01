@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function About() {
   return (
     <section id="about">
@@ -24,7 +25,7 @@ export default function About() {
               <img
                 className="personal-picture"
                 alt="personal"
-                src="./images/personal.jpg"
+                src="../../public/images/personal.jpg"
               />
             </div>
 

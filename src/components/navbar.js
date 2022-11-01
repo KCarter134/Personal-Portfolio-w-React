@@ -7,18 +7,18 @@ function Navbar() {
       <div className="flex-container">
         <Link to="/" className="name"><i>Kyle Carter</i></Link>
         <nav className="navbar">
-          <a href="/about" className="title">
+          <Link to="/about" className="title">
             About
-          </a>
-          <a href="/portfolio" className="title">
+          </Link>
+          <Link to="/portfolio" className="title">
             Portfolio
-          </a>
-          <a href="/contact" className="title">
+          </Link>
+          <Link to="/contact" className="title">
             Contact
-          </a>
-          <a href="/resume" className="title">
+          </Link>
+          <Link to="/resume" className="title">
             Resume
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
