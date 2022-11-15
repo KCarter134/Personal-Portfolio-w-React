@@ -23,7 +23,6 @@
     flex-direction: column;
     width: 30vw;
     /* border: 1px solid black; */
-    padding-top: 3vh;
 }
 
 .contact {
@@ -61,7 +60,11 @@
     border-radius: 5px;
 }
 
+.textarea-input {
+    height: 100px;
+}
+
 .contact-submit {
     float: right;
-    width: 8vw;
+    width: 80px;
 }

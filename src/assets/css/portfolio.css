@@ -1,6 +1,5 @@
 .portfolio-section {
     background-color: #1f1f1f;
-    height: 100vh;
 }
 
 .intro-port {
@@ -12,14 +11,14 @@
 
 .intro-desc {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .project-section-wrapper {
-    margin-top: 3vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 .project-section-wrapper a {
@@ -30,7 +29,8 @@
 .project-links {
     height: 20vh;
     width: 25vw;
-    margin-top: 150px;
+    margin-top: 100px;
+    transform: translateY(-35%);
 }
 
 .image-gallery,
@@ -49,15 +49,17 @@
 .project-title {
     text-align: left;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .project-subtitle {
     text-align: left;
     font-weight: 500;
     color: white;
+    font-size: 14px;
 }
 
 .project-desc {
     text-align: left;
+    font-size: 14px;
 }

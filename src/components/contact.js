@@ -44,17 +44,17 @@ function ContactForm() {
         <div className='name-address'>
          <div className='contact-name-wrapper'>
           <label htmlFor="name" className='contact-name'>Name</label>
-          <input className='input' type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          <input placeholder="Name" className='input' type="text" name="name" defaultValue={name} onBlur={handleChange} />
          </div>
          <div className='contact-email-wrapper'>
           <label htmlFor="email" className='contact-email'>Email address</label>
-          <input className='input' type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <input placeholder="Email" className='input' type="email" name="email" defaultValue={email} onBlur={handleChange} />
          </div>
         </div>
         <div className='message'>
         <div className='contact-message-wrapper'>
           <label htmlFor="message" className='contact-message'>Message</label>
-          <textarea className='textarea-input' name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea placeholder="Whats on your mind?" className='textarea-input' name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         </div>
         {errorMessage && (
