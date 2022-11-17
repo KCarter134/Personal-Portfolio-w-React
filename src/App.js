@@ -5,7 +5,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Footer from './components/footer';
-// import PDF from './assets/pdf/Kyle_Carter_Resume.pdf'
+// NPM RUN DEPLOY {to publish to github pages}
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
 

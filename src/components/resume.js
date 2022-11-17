@@ -18,7 +18,7 @@ function Resume() {
     // )
     return (
         <section className='resume'>
-            <img src={Myresume} alt='resume'></img>
+            <img src={Myresume} alt='resume' className="resume"></img>
         </section>
     )
 }
