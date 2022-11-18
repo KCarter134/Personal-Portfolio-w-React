@@ -1,6 +1,7 @@
 #about {
     background: radial-gradient(#1d1d1d,#000000);
     color: white;
+    padding-top: 10vh;
 }
 
 .hide-top-10 {
@@ -13,6 +14,7 @@
     padding-top: 8vh;
     font-size: 2.5vw;
     text-align: center;
+
 }
 
 .image-container {
@@ -31,6 +33,10 @@
     margin-right: 35vw;
     margin-left: 35vw;
     font-size: 1.3vw;
+}
+
+.text-container p {
+    color: #31fa1c;
 }
 
 #main-info {

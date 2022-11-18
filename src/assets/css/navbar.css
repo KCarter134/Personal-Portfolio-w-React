@@ -1,6 +1,5 @@
 header {
     background-color: rgb(43, 51, 167);
-    height: 8vh;
 }
 
 .flex-container {
@@ -15,6 +14,12 @@ header {
     font-size: 2.5vw;
     margin-left: 3.5vw;
     font-weight: 600;
+    color: #31fa1c;
+}
+
+.name:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .navbar a {
@@ -32,6 +37,10 @@ header {
     padding-left: 1.5vw;
     font-size: 2vw;
     font-weight: 600;
-    color: black;
-    border-left: 2px solid black;
+    color: #31fa1c;
+    border-left: 2px solid white;
+}
+
+.title:hover {
+    color: white;
 }
