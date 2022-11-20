@@ -8,6 +8,7 @@ function ContactForm() {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
@@ -36,11 +37,19 @@ function ContactForm() {
     }
   };
 
+  const [isHovering, setIsHovering] = useState(false)
+  const handleMouseOver = () => {
+      setIsHovering(true)
+  }
+    const handleMouseOut = () => {
+        setIsHovering(false);
+    };
+
   return (
     <section className='contact-main'>
       <h1 className="contact"><i>Contact me</i></h1>
       <main className='content-wrapper'>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" onSubmit={handleSubmit} >
         <div className='name-address'>
          <div className='contact-name-wrapper'>
           <label htmlFor="name" className='contact-name'>Name</label>

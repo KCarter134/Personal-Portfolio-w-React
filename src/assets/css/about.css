@@ -51,23 +51,92 @@
     border-top: 3px solid #000000;
 }
 
-.master-language-container {
-    width: 50vw;
+#about-main-wrapper {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
-.language-grid-flex{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 40px;
-}
-
-.language-container-flex {
+#lang-tech-frame-master {
     display: flex;
     flex-direction: row;
-    text-align: center;
+    justify-content: center;
+    column-gap: 5vw;
 }
 
-.language-icon img {
-    height: 100px;
-    width: 100px;
+.knowledge-master-container {
+    border: 1px solid white;
+    width: 15vw;
+    border-radius: 4px;
+    border-color: #31fa1c;
 }
+
+.knowledge-container-title {
+    font-size: 20px;
+}
+
+.title-container {
+    background-color: #31fa1c;
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+.inner-knowledge-info ul {
+    font-size: 12px;
+    padding-left: 0;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.knowledge-item {
+    margin-top: 5px;
+}
+
+/*.container-s{*/
+/*    width: 500px;*/
+/*    position: absolute;*/
+/*    transform: translate(-50%,-50%);*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    overflow: hidden;*/
+/*    border: 10px solid #ffffff;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: -1px 5px 15px black;*/
+/*}*/
+
+/*!*Area of images*!*/
+/*.wrapper-s{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    animation: slide 16s infinite;*/
+/*}*/
+
+/*img{*/
+/*    width: 100%;*/
+/*}*/
+/*!*Animation activated by keyframes*!*/
+/*@keyframes slide{*/
+/*    0%{*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*    25%{*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*    30%{*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*    50%{*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*    55%{*/
+/*        transform: translateX(-200%);*/
+/*    }*/
+/*    75%{*/
+/*        transform: translateX(-200%);*/
+/*    }*/
+/*    80%{*/
+/*        transform: translateX(-300%);*/
+/*    }*/
+/*    100%{*/
+/*        transform: translateX(-300%);*/
+/*    }*/
+/*}*/

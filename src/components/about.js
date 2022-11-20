@@ -41,62 +41,77 @@ export default function About() {
             {/* languages learned */}
           <section id="main-info">
             <article id="about-info">
-              <div id="about-title"><i>ABOUT ME</i></div>
+              <div id="about-title"><i>MY KNOWLEDGE</i></div>
                                  {/* Beginning of Language & Technology Area */}
-              <div className="master-language-container">
-                <div className="language-grid-flex">
-                  <div className="language-container-flex">
-                    <div className="language-icon">
-                      <img src={htmlPic} alt="language"/>
-                    </div>
-                    <div className="language-name-container">
-                      <div className="language-name">HTML5</div>
+              <section id="about-main-wrapper">
+              <div id="lang-tech-frame-master">
+                <article id="languages" className="knowledge-master-container">  {/* Languages */}
+                  <div className="title-container">
+                    <div className="knowledge-container-title">Languages</div>
+                  </div>
+                  <div className="knowledge-info-conatiner">
+                    <div className="inner-knowledge-info">
+                      <ul>
+                        <li className="knowledge-item">HTML</li>
+                        <li className="knowledge-item">CSS</li>
+                        <li className="knowledge-item">JavaScript</li>
+                        <li className="knowledge-item">MongoDB</li>
+                        <li className="knowledge-item">MySQL</li>
+                      </ul>
                     </div>
                   </div>
-                  <div className="language-container-flex">
-                    <div className="language-icon">
-                      <img src={cssPic} alt="language"/>
-                    </div>
-                    <div className="language-name-container">
-                      <div className="language-name">CSS</div>
+                  {/*<div className="image-carousel-container">*/}
+                  {/*  <div className=""></div>*/}
+                  {/*</div>*/}
+                </article>
+                <article id="frameworks" className="knowledge-master-container"> {/* Frameworks */}
+                  <div className="title-container">
+                    <div className="knowledge-container-title">Frameworks</div>
+                  </div>
+                  <div className="knowledge-info-conatiner">
+                    <div className="inner-knowledge-info">
+                      <ul>
+                        <li className="knowledge-item">React.js</li>
+                        <li className="knowledge-item">Handlebars.js</li>
+                        <li className="knowledge-item">Node.js</li>
+                        <li className="knowledge-item">Express.js</li>
+                        <li className="knowledge-item">Jest.js</li>
+                        <li className="knowledge-item">Bootstrap</li>
+                        <li className="knowledge-item">Materialize</li>
+                      </ul>
                     </div>
                   </div>
-                  <div className="language-container-flex">
-                    <div className="language-icon">
-                      <img src={JavaScriptPic} alt="language"/>
-                    </div>
-                    <div className="language-name-container">
-                      <div className="language-name">JavaScript</div>
+                </article>
+                <article id="technologies" className="knowledge-master-container"> {/* Technologies */}
+                  <div className="title-container">
+                    <div className="knowledge-container-title">Dev Tools</div>
+                  </div>
+                  <div className="knowledge-info-conatiner">
+                    <div className="inner-knowledge-info">
+                      <ul>
+                        <li className="knowledge-item">CLI Tools</li>
+                        <li className="knowledge-item">Webkit</li>
+                        <li className="knowledge-item">Alec's Dumbass</li>
+                        <li className="knowledge-item">GitHub</li>
+                        <li className="knowledge-item">Lighthouse</li>
+                      </ul>
                     </div>
                   </div>
-                  <div className="language-container-flex">
-                    <div className="language-icon">
-                      <img src={JQueryPic} alt="language"/>
-                    </div>
-                    <div className="language-name-container">
-                      <div className="language-name">JQuery</div>
-                    </div>
-                  </div>
-                  <div className="language-container-flex">
-                    <div className="language-icon">
-                      <img src={reactPic} alt="language"/>
-                    </div>
-                    <div className="language-name-container">
-                      <div className="language-name">React.js</div>
-                    </div>
-                  </div>
-                  <div className="language-container-flex">
-                    <div className="language-icon">
-                      <img src={BootstrapPic} alt="language"/>
-                    </div>
-                    <div className="language-name-container">
-                      <div className="language-name">Bootstrap</div>
-                    </div>
-                  </div>
-                </div>
+                </article>
               </div>
+              </section>
             </article>
           </section>
+
+          {/*<div class="container-s">*/}
+          {/*  <div class="wrapper-s">*/}
+          {/*    <img src="https://filmswot.files.wordpress.com/2018/01/coco_dominates_chinese_box_office_.jpg" alt="asdf"></img>*/}
+          {/*      <img src="https://www.foundry.com/sites/default/files/inline-images/Images_003_0.jpg" alt="lkj"></img>*/}
+          {/*        <img src="https://www.foylefilmfestival.org/sites/default/files/COCO%20main%20image%203.jpg" alt="gfdsdfg"></img>*/}
+          {/*          <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F11%2Fcoco_c330_56b_pub-pub16n-186_rgb-2000.jpg" alt="jklasdf"></img>*/}
+          {/*  </div>*/}
+
+          {/*</div>*/}
 
         </div>
       </div>
