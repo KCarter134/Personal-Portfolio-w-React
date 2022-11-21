@@ -40,7 +40,7 @@
 }
 
 #main-info {
-    padding-top: 50px;
+    padding-top: 200px;
 }
 
 #about-title {
@@ -52,8 +52,8 @@
 }
 
 #about-main-wrapper {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
 #lang-tech-frame-master {
@@ -64,14 +64,14 @@
 }
 
 .knowledge-master-container {
-    border: 1px solid white;
+    border: 1px solid #31fa1c;
     width: 15vw;
     border-radius: 4px;
-    border-color: #31fa1c;
 }
 
 .knowledge-container-title {
-    font-size: 20px;
+    /*font-size: 20px;  UPON SMALLER SCREEN*/
+    font-size: 30px;
 }
 
 .title-container {
@@ -81,7 +81,8 @@
 }
 
 .inner-knowledge-info ul {
-    font-size: 12px;
+    /*font-size: 12px; UPON SMALLER SCREEN*/
+    font-size: 18px;
     padding-left: 0;
     padding-top: 10px;
     list-style-type: none;
