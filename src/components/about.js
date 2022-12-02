@@ -6,6 +6,7 @@ import JavaScriptPic from "../assets/svg/javascript1.svg"
 import JQueryPic from "../assets/svg/jquery1.svg"
 import BootstrapPic from "../assets/svg/bootstrap1.svg"
 import reactPic from "../assets/svg/react1.svg"
+import angularPic from "../assets/svg/angular.svg"
 
 
 export default function About() {
@@ -99,22 +100,47 @@ export default function About() {
                   </div>
                 </article>
               </div>
+                <div className="carousel-main-container">
+                  <div className="carousel-wrapper">
+                    <div className="carousel-items">
+                      <img src={htmlPic} alt="" className="carousel-img"></img>
+                      <img src={cssPic} alt="" className="carousel-img"></img>
+                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
+                      <img src={JQueryPic} alt="" className="carousel-img"></img>
+                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
+                      <img src={reactPic} alt="" className="carousel-img"></img>
+                      <img src={angularPic} alt="" className="carousel-img"></img>
+                      {/*reset*/}
+                      <img src={htmlPic} alt="" className="carousel-img"></img>
+                      <img src={cssPic} alt="" className="carousel-img"></img>
+                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
+                      <img src={JQueryPic} alt="" className="carousel-img"></img>
+                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
+                      <img src={reactPic} alt="" className="carousel-img"></img>
+                      <img src={angularPic} alt="" className="carousel-img"></img>
+                      {/*reset*/}
+                      <img src={htmlPic} alt="" className="carousel-img"></img>
+                      <img src={cssPic} alt="" className="carousel-img"></img>
+                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
+                      <img src={JQueryPic} alt="" className="carousel-img"></img>
+                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
+                      <img src={reactPic} alt="" className="carousel-img"></img>
+                      <img src={angularPic} alt="" className="carousel-img"></img>
+                    </div>
+                  </div>
+                </div>
               </section>
             </article>
           </section>
-
-          {/*<div class="container-s">*/}
-          {/*  <div class="wrapper-s">*/}
-          {/*    <img src="https://filmswot.files.wordpress.com/2018/01/coco_dominates_chinese_box_office_.jpg" alt="asdf"></img>*/}
-          {/*      <img src="https://www.foundry.com/sites/default/files/inline-images/Images_003_0.jpg" alt="lkj"></img>*/}
-          {/*        <img src="https://www.foylefilmfestival.org/sites/default/files/COCO%20main%20image%203.jpg" alt="gfdsdfg"></img>*/}
-          {/*          <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F11%2Fcoco_c330_56b_pub-pub16n-186_rgb-2000.jpg" alt="jklasdf"></img>*/}
-          {/*  </div>*/}
-
-          {/*</div>*/}
-
         </div>
       </div>
+
+      <section id="projects-info">
+        <div className="title-border-feature"></div>
+        <div id="feature-title" className="border-b"><i>FEATURED PROJECTS</i></div>
+        <div className="title-border-feature"></div>
+      </section>
+
     </section>
   );
 }

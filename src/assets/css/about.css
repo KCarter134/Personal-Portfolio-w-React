@@ -92,52 +92,78 @@
     margin-top: 5px;
 }
 
-/*.container-s{*/
-/*    width: 500px;*/
-/*    position: absolute;*/
-/*    transform: translate(-50%,-50%);*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    overflow: hidden;*/
-/*    border: 10px solid #ffffff;*/
-/*    border-radius: 8px;*/
-/*    box-shadow: -1px 5px 15px black;*/
-/*}*/
+                                        /* Carousel Section */
 
-/*!*Area of images*!*/
-/*.wrapper-s{*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*    animation: slide 16s infinite;*/
-/*}*/
+.carousel-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 55vw;
+    background-color: rgb(15, 15, 15);
+    transform: translateX(40%);
+    margin-top: 80px;
+    box-sizing: border-box;
+}
 
-/*img{*/
-/*    width: 100%;*/
-/*}*/
-/*!*Animation activated by keyframes*!*/
-/*@keyframes slide{*/
-/*    0%{*/
-/*        transform: translateX(0);*/
-/*    }*/
-/*    25%{*/
-/*        transform: translateX(0);*/
-/*    }*/
-/*    30%{*/
-/*        transform: translateX(-100%);*/
-/*    }*/
-/*    50%{*/
-/*        transform: translateX(-100%);*/
-/*    }*/
-/*    55%{*/
-/*        transform: translateX(-200%);*/
-/*    }*/
-/*    75%{*/
-/*        transform: translateX(-200%);*/
-/*    }*/
-/*    80%{*/
-/*        transform: translateX(-300%);*/
-/*    }*/
-/*    100%{*/
-/*        transform: translateX(-300%);*/
-/*    }*/
-/*}*/
+.carousel-wrapper {
+    max-width: 1650px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-items {
+    display: flex;
+    gap: 50px;
+    animation: carousel 20s linear infinite;
+}
+
+.carousel-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+                                        /* Feature Skills Section */
+
+#feature-title {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+}
+
+#feature-title:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+/* .title-border-feature {
+    transform: translateX(50vw);
+    height: 3px;
+    width: 100%;
+    background-color: #000000;
+} */
+
+#projects-info {
+    padding-top: 300px;
+}
+
+.bracket {
+    font-size: 800px;
+    width: 50px;
+}
