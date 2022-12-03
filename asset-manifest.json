@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-w-React/static/css/main.601048c2.css",
-    "main.js": "/Personal-Portfolio-w-React/static/js/main.0c63176e.js",
+    "main.css": "/Personal-Portfolio-w-React/static/css/main.19819aa7.css",
+    "main.js": "/Personal-Portfolio-w-React/static/js/main.b2c61438.js",
     "static/js/787.aeca62f9.chunk.js": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js",
     "static/media/stockbuddy.png": "/Personal-Portfolio-w-React/static/media/stockbuddy.fbdec6033a4714040466.png",
     "static/media/QuizProject.png": "/Personal-Portfolio-w-React/static/media/QuizProject.feefdad6fea5b1203916.png",
@@ -26,12 +26,12 @@
     "static/media/angular.svg": "/Personal-Portfolio-w-React/static/media/angular.28ae4f3c6c193d04113e4767a73b86bc.svg",
     "static/media/css1.svg": "/Personal-Portfolio-w-React/static/media/css1.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/javascript1.svg": "/Personal-Portfolio-w-React/static/media/javascript1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.601048c2.css.map": "/Personal-Portfolio-w-React/static/css/main.601048c2.css.map",
-    "main.0c63176e.js.map": "/Personal-Portfolio-w-React/static/js/main.0c63176e.js.map",
+    "main.19819aa7.css.map": "/Personal-Portfolio-w-React/static/css/main.19819aa7.css.map",
+    "main.b2c61438.js.map": "/Personal-Portfolio-w-React/static/js/main.b2c61438.js.map",
     "787.aeca62f9.chunk.js.map": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.601048c2.css",
-    "static/js/main.0c63176e.js"
+    "static/css/main.19819aa7.css",
+    "static/js/main.b2c61438.js"
   ]
 }
