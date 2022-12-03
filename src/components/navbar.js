@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <header className="header">
-      <div className="flex-container">
-        <Link to="/" className="name"><i>Kyle Carter</i></Link>
+      <section className="header-container">
+        <div className="name-container">
+         <Link to="/" className="name"><i>Kyle Carter</i></Link>
+        </div>
         <nav className="navbar">
           <Link to="/about" className="title">
             About
@@ -20,7 +22,7 @@ function Navbar() {
             Resume
           </Link>
         </nav>
-      </div>
+      </section>
     </header>
   );
 }

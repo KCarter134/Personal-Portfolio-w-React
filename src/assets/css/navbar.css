@@ -1,18 +1,19 @@
-header {
-    background-color: rgb(43, 51, 167);
-}
-
-.flex-container {
+.header-container {
     position: absolute;
     top: 4vh;
     transform:translateY(-50%);
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 }
 
-.name {
-    font-size: 2.5vw;
+.name-container {
+    transform: translateY(10%);
     margin-left: 3.5vw;
+}
+
+.name {
+    font-size: 25px;
     font-weight: 600;
     color: #31fa1c;
 }
@@ -27,20 +28,20 @@ header {
 }
 
 .navbar {
-    left: 35vw;
-    display: flex !important;
-    justify-content: space-evenly !important;
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
 }
 
 .title {
     padding-right: 1.5vw;
     padding-left: 1.5vw;
-    font-size: 2vw;
+    font-size: 25px;
     font-weight: 600;
-    color: #31fa1c;
-    border-left: 2px solid white;
+    color: white;
+    border-right: 2px solid white;
 }
 
 .title:hover {
-    color: white;
+    color: #31fa1c;
 }
