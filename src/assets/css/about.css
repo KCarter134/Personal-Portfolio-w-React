@@ -13,8 +13,8 @@
 
 .image-container {
     position: absolute;
-    left: 600px;
-    top: 350px;
+    left: 32vw;
+    top: 400px;
 }
 
 .hexagon {
@@ -52,8 +52,8 @@
 }
 
 .hexagon2 {
-    width: 140px;
-    height: 200px;
+    width: 550px;
+    height: 440px;
 }
 
                                         /* INTRO INFORMATION START */
@@ -96,6 +96,7 @@
 
 .contact-flex-cont {
     display: flex;
+    padding-top: 30px;
 }
 
 .contact-icon-text {
@@ -119,6 +120,17 @@
 }
 
                                                     /* KNOWLEDGE SECTION */
+#main-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.green-filler-right {
+    width: 20px;
+    margin-right: 20px;
+    background-color: #31fa1c;
+}
+
 #about-title {
     text-align: center;
     font-size: 100px;
@@ -145,6 +157,62 @@
     flex-direction: row;
     justify-content: center;
     column-gap: 5vw;
+}
+
+                                                        /* LANGUAGES BUTTONS AND CARD RENDERS */
+
+.card-body {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    background: radial-gradient(#1d1d1d,#000000);
+    color: black;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.card-display-cont {
+    display: grid;
+    column-count: 2;
+}
+
+.skills-btns {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-btns li {
+    cursor: pointer;
+    font-size: 2vw;
+    border: 3px solid #31fa1c;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.skills-btns li:hover {
+    background-color: #31fa1c;
+}
+
+.card-context {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-title {
+    padding-left: 40px;
+    color: #31fa1c;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-name {
+    padding-right: 40px;
 }
 
 .knowledge-master-container {
@@ -185,7 +253,6 @@
     height: 15vh;
     width: 55vw;
     background-color: rgb(15, 15, 15);
-    transform: translateX(40%);
     margin-top: 80px;
     box-sizing: border-box;
 }

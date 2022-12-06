@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Personal from "../assets/images/personal.jpg"
 import htmlPic from "../assets/svg/html5-1.svg"
 import cssPic from "../assets/svg/css1.svg"
@@ -12,11 +12,18 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faStackOverflow } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import LangCard from "./card"
+import cardData from "./Data"
+import { Nav, Card, Button } from 'react-bootstrap';
+
 
 
 
 
 export default function About() {
+
+  const [active, setActive] = useState("1")
+
   return (
     <section id="about">
         <div className="main-container">
@@ -41,7 +48,7 @@ export default function About() {
                   journey of fullstack development
                 </p>
                 <p className="info about-desc-extra">
-                  With a passion for web development and a history in front end, I intend
+                  With a passion for web development and a history in front end, <br /> I intend
                   on utilizing the skills obtained in both traditional schooling and skills
                   learned in my free time!
                 </p>
@@ -57,70 +64,35 @@ export default function About() {
                 </div>
 
               </article>
-          </div>
+            </div>
           </div>
         </div>
-            {/* languages learned */}
-          <section id="main-info">
-            <article id="about-info">
-              <div id="about-title"><i>MY KNOWLEDGE</i></div>
-                                 {/* Beginning of Language & Technology Area */}
-              <section id="about-main-wrapper">
-              <div id="lang-tech-frame-master">
-                <article id="languages" className="knowledge-master-container">  {/* Languages */}
-                  <div className="title-container">
-                    <div className="knowledge-container-title">Languages</div>
+
+
+                                                      {/* KNOWLEDGE SECTION */}
+
+      <section id="main-info">
+        <div className="green-filler-right"></div>
+        <article id="about-info">
+          <div id="about-title"><i>MY KNOWLEDGE</i></div>
+          {/* Beginning of Language & Technology Area */}
+          <section id="about-main-wrapper">
+            <div id="lang-tech-frame-master">
+              <article className="skill-area-wrapper" id="skills">
+                <div className="skills-container">
+                  <ul className="skills-btns">
+                    <li className="" onClick={() => setActive("1")}>Languages</li>
+                    <li className="" onClick={() => setActive("2")}>Frameworks</li>
+                    <li className="" onClick={() => setActive("3")}>Dev-Tools</li>
+                  </ul>
+                  <div className="skill-card-container">
+                    {active === "1" && <LangCard data={cardData} cardIndex={0} />}
+                    {active === "2" && <LangCard data={cardData} cardIndex={1} />}
+                    {active === "3" && <LangCard data={cardData} cardIndex={2} />}
                   </div>
-                  <div className="knowledge-info-conatiner">
-                    <div className="inner-knowledge-info">
-                      <ul>
-                        <li className="knowledge-item">HTML</li>
-                        <li className="knowledge-item">CSS</li>
-                        <li className="knowledge-item">JavaScript</li>
-                        <li className="knowledge-item">MongoDB</li>
-                        <li className="knowledge-item">MySQL</li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/*<div className="image-carousel-container">*/}
-                  {/*  <div className=""></div>*/}
-                  {/*</div>*/}
-                </article>
-                <article id="frameworks" className="knowledge-master-container"> {/* Frameworks */}
-                  <div className="title-container">
-                    <div className="knowledge-container-title">Frameworks</div>
-                  </div>
-                  <div className="knowledge-info-conatiner">
-                    <div className="inner-knowledge-info">
-                      <ul>
-                        <li className="knowledge-item">React.js</li>
-                        <li className="knowledge-item">Handlebars.js</li>
-                        <li className="knowledge-item">Node.js</li>
-                        <li className="knowledge-item">Express.js</li>
-                        <li className="knowledge-item">Jest.js</li>
-                        <li className="knowledge-item">Bootstrap</li>
-                        <li className="knowledge-item">Materialize</li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
-                <article id="technologies" className="knowledge-master-container"> {/* Technologies */}
-                  <div className="title-container">
-                    <div className="knowledge-container-title">Dev Tools</div>
-                  </div>
-                  <div className="knowledge-info-conatiner">
-                    <div className="inner-knowledge-info">
-                      <ul>
-                        <li className="knowledge-item">CLI Tools</li>
-                        <li className="knowledge-item">Webkit</li>
-                        <li className="knowledge-item">Alec's Dumbass</li>
-                        <li className="knowledge-item">GitHub</li>
-                        <li className="knowledge-item">Lighthouse</li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
-              </div>
+                </div>
+              </article>
+            </div>
                 <div className="carousel-main-container">
                   <div className="carousel-wrapper">
                     <div className="carousel-items">
