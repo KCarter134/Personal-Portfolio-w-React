@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a16d7b-7a05-49cd-a81e-80b87c96ebea" name="Changes" comment="" />
+    <list default="true" id="49a16d7b-7a05-49cd-a81e-80b87c96ebea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio-react.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/html5-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/html5-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +43,7 @@
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kcart\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5787.30\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -51,6 +60,7 @@
       <workItem from="1668724787015" duration="3244000" />
       <workItem from="1668784325429" duration="15507000" />
       <workItem from="1669898079527" duration="5377000" />
+      <workItem from="1671210214388" duration="3853000" />
     </task>
     <servers />
   </component>

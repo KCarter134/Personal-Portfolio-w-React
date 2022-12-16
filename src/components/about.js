@@ -22,7 +22,9 @@ import { Nav, Card, Button } from 'react-bootstrap';
 
 export default function About() {
 
-  const [active, setActive] = useState("1")
+  const [active, setActive] = useState("1");
+  const [currentActive, isActive] = useState(false);
+
 
   return (
     <section id="about">
@@ -81,9 +83,15 @@ export default function About() {
               <article className="skill-area-wrapper" id="skills">
                 <div className="skills-container">
                   <ul className="skills-btns">
-                    <li className="" onClick={() => setActive("1")}>Languages</li>
-                    <li className="" onClick={() => setActive("2")}>Frameworks</li>
-                    <li className="" onClick={() => setActive("3")}>Dev-Tools</li>
+                    <li className={isActive ? 'inactive' : 'active'} onClick={() => {
+                      setActive("1");
+                    }}>Languages</li>
+                    <li className={isActive ? 'inactive' : 'active'} onClick={() => {
+                      setActive("2");
+                    }}>Frameworks</li>
+                    <li className={isActive ? 'inactive' : 'active'} onClick={() => {
+                      setActive("3");
+                    }}>Dev-Tools</li>
                   </ul>
                   <div className="skill-card-container">
                     {active === "1" && <LangCard data={cardData} cardIndex={0} />}

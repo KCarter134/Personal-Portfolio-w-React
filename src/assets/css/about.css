@@ -1,3 +1,5 @@
+
+
 #about {
     background: radial-gradient(#1d1d1d,#000000);
     color: white;
@@ -125,6 +127,10 @@
     flex-direction: row-reverse;
 }
 
+#about-info {
+    margin-right: 20px;
+}
+
 .green-filler-right {
     width: 20px;
     margin-right: 20px;
@@ -153,10 +159,7 @@
 }
 
 #lang-tech-frame-master {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 5vw;
+    width: 50vw;
 }
 
                                                         /* LANGUAGES BUTTONS AND CARD RENDERS */
@@ -167,34 +170,39 @@
     width: 800px;
     height: 100px;
     background: radial-gradient(#1d1d1d,#000000);
-    color: black;
+    color: white;
     margin-top: 20px;
     padding: 0;
     border-radius: 8px;
 }
 
 .card-display-cont {
-    display: grid;
-    column-count: 2;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .skills-btns {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: space-between;
 }
 
-.skills-btns li {
+.inactive {
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 20px;
     border: 3px solid #31fa1c;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 30px;
+    margin-right: 30px;
 }
 
-.skills-btns li:hover {
+.inactive:hover {
+    background-color: #31fa1c;
+}
+
+.active {
     background-color: #31fa1c;
 }
 
@@ -209,6 +217,11 @@
     color: #31fa1c;
     font-size: 30px;
     font-weight: 600;
+}
+
+.card-context img {
+    height: 50px;
+    width: 50px;
 }
 
 .card-name {
@@ -244,16 +257,16 @@
     margin-top: 5px;
 }
 
-                                        /* Carousel Section */
+                                                   /* Carousel Section */
 
 .carousel-main-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 15vh;
-    width: 55vw;
-    background-color: rgb(15, 15, 15);
-    margin-top: 80px;
+    width: 50vw;
+    background: radial-gradient(#1d1d1d,#000000);
+    margin-top: 150px;
     box-sizing: border-box;
 }
 

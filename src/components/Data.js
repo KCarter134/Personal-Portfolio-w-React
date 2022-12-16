@@ -6,41 +6,34 @@ import BootstrapPic from "../assets/svg/bootstrap1.svg"
 import reactPic from "../assets/svg/react1.svg"
 import angularPic from "../assets/svg/angular.svg"
 
-{/*        <li className="knowledge-item">React.js</li>*/}
-{/*        <li className="knowledge-item">Handlebars.js</li>*/}
-{/*        <li className="knowledge-item">Node.js</li>*/}
-{/*        <li className="knowledge-item">Express.js</li>*/}
-{/*        <li className="knowledge-item">Jest.js</li>*/}
-{/*        <li className="knowledge-item">Bootstrap</li>*/}
-{/*        <li className="knowledge-item">Materialize</li>*/}
 
-{/*        <li className="knowledge-item">CLI Tools</li>*/}
-{/*        <li className="knowledge-item">Webkit</li>*/}
-{/*        <li className="knowledge-item">Alec's Dumbass</li>*/}
-{/*        <li className="knowledge-item">GitHub</li>*/}
-{/*        <li className="knowledge-item">Lighthouse</li>*/}
+
 const data = [
     [
         {
             title: "HTML",
             name: "first card yes",
-            // image: htmlPic
+            image: htmlPic
         },
         {
             title: "CSS",
             name: "still first card yes",
+            // image: cssPic
         },
         {
             title: "JavaScript",
             name: "still first card yes",
+            // image: JavaScriptPic
         },
         {
             title: "MySql",
             name: "still first card yes",
+            // image: JQueryPic
         },
         {
             title: "MongoDB",
-            name: "still first card yes"
+            name: "still first card yes",
+            // image: cssPic
         }
     ],
     [
