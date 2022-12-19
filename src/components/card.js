@@ -9,7 +9,6 @@ const Card = ({ data, cardIndex }) => {
                         {/*<p className="card-img">{item.image}</p>*/}
                         <p className="card-title">{item.title}</p>
                         <img src={item.image} alt={'SOME TING WONG'}/>
-                        <p className="card-name">{item.name}</p>
                     </div>
                 </div>
             ))}
