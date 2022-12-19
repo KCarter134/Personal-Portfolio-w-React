@@ -5,7 +5,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Footer from './components/footer';
-// import PDF from './assets/pdf/Kyle_Carter_Resume.pdf'
+// NPM RUN DEPLOY {to publish to github pages}
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
 
@@ -16,7 +16,8 @@ function App() {
     
     <div className="App">
       <Routes>
-        <Route path="/About" element={<About />} />
+        <Route path="/Personal-Portfolio-w-React" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path ="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
@@ -25,7 +26,6 @@ function App() {
       </Routes>
     </div>
     <Footer />
-    
     </>
   );
 }

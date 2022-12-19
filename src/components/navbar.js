@@ -4,23 +4,25 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <header className="header">
-      <div className="flex-container">
-        <Link to="/" className="name"><i>Kyle Carter</i></Link>
+      <section className="header-container">
+        <div className="name-container">
+         <Link to="/" className="name"><i>Kyle Carter</i></Link>
+        </div>
         <nav className="navbar">
-          <a href="/about" className="title">
+          <Link to="/about" className="title">
             About
-          </a>
-          <a href="/portfolio" className="title">
+          </Link>
+          <Link to="/portfolio" className="title">
             Portfolio
-          </a>
-          <a href="/contact" className="title">
+          </Link>
+          <Link to="/contact" className="title">
             Contact
-          </a>
-          <a href="/resume" className="title">
+          </Link>
+          <Link to="/resume" className="title">
             Resume
-          </a>
+          </Link>
         </nav>
-      </div>
+      </section>
     </header>
   );
 }

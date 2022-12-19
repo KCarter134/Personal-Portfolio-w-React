@@ -1,3 +1,5 @@
+import Myresume from "../assets/images/resume.png"
+
 import React from 'react'
 // import { Document } from "react-pdf";
 // import PDF from '../assets/pdf/Kyle_Carter_Resume.pdf'
@@ -16,7 +18,7 @@ function Resume() {
     // )
     return (
         <section className='resume'>
-            <img src='./images/resume.png' alt='resume'></img>
+            <img src={Myresume} alt='resume' className="resume"></img>
         </section>
     )
 }

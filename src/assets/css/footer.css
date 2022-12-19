@@ -12,11 +12,11 @@
     position: relative;
     width: 20vw;
     height: 10vh;
-    transform: translateY(25%);
     margin-left: 60vw;
 }
 
 .footer-nav {
     display: flex;
     justify-content: space-between;
+    transform: translateY(70%);
 }

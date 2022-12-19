@@ -1,7 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import { projects } from "../data";
 
-export default function Projects(props) {
+export default function Projects() {
+  const [isHovering, setIsHovering] = useState(false)
+  const handleMouseOver = () => {
+    setIsHovering(true)
+  }
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
+
   return (
     <section id="projects" className="portfolio-section">
       <div className="portfolio-section-wrapper">
@@ -18,12 +26,15 @@ export default function Projects(props) {
               href={project.link}
               key={project.image}
               className="project-links">
-            
+
+
               <div className="images-desc">
                 <img
                   alt="gallery"
                   className="image-gallery"
-                  src={project.image} />
+                  src={require(`../assets${project.image}`)} />
+                <div className="WORK" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+              </div>
               </div>
             
           <div className="project-info-wrapper">
