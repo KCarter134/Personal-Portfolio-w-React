@@ -1,6 +1,4 @@
 import React from "react";
-import htmlPic from "../assets/svg/html5-1.svg";
-import cardData from "./Data";
 
 const Card = ({ data, cardIndex }) => {
     return (
