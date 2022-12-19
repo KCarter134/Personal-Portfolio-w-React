@@ -21,91 +21,74 @@ const data = [
     [
         {
             title: "HTML",
-            name: "first card yes",
             image: htmlPic
         },
         {
             title: "CSS",
-            name: "still first card yes",
             image: cssPic
         },
         {
             title: "JavaScript",
-            name: "still first card yes",
             image: JavaScriptPic
         },
         {
             title: "MySql",
-            name: "still first card yes",
             image: mySql
         },
         {
             title: "MongoDB",
-            name: "still first card yes",
             image: mongo
         }
     ],
     [
         {
             title: "React.js",
-            name: "second card yeah",
             image: reactPic
         },
         {
             title: "Handlebars.js",
-            name: "second card yeah",
             image: handlebars
         },
         {
             title: "Node.js",
-            name: "second card yeah",
             image: node
         },
         {
             title: "Express.js",
-            name: "second card yeah",
             image: express
         },
         {
             title: "Jest.js",
-            name: "second card yeah",
             image: jest
         },
         {
             title: "Bootstrap",
-            name: "second card yeah",
             image: bootstrap
         },
         {
             title: "Materialize",
-            name: "second card yeah",
             image: materialize
         },
     ],
     [
         {
             title: "Git",
-            name: "third card for sure!",
             image: gitPic
         },
         {
             title: "Webpack",
-            name: "third card for sure!",
             image: webpack
         },
         {
             title: "GitHub",
-            name: "third card for sure!",
             image: gitHubPic
         },
         {
             title: "LightHouse",
-            name: "third card for sure!",
             image: lighthouse
         },
         {
             title: "Heroku",
-            name: "third card for sure!",
             image: heroku
         },
         ]

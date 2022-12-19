@@ -3,10 +3,22 @@ import Personal from "../assets/images/personal.jpg"
 import htmlPic from "../assets/svg/html5-1.svg"
 import cssPic from "../assets/svg/css1.svg"
 import JavaScriptPic from "../assets/svg/javascript1.svg"
-import JQueryPic from "../assets/svg/jquery1.svg"
 import BootstrapPic from "../assets/svg/bootstrap1.svg"
-import reactPic from "../assets/svg/react1.svg"
 import angularPic from "../assets/svg/angular.svg"
+import mySql from "../assets/svg/mysql1.svg"
+import reactPic from "../assets/svg/react1.svg"
+import mongo from "../assets/svg/mongodb-logo.svg"
+import JQueryPic from "../assets/svg/jquery1.svg"
+import handlebars from "../assets/svg/handlebarsjs-icon.svg"
+import node from "../assets/svg/nodejs.svg"
+import express from "../assets/svg/expressjs-icon.svg"
+import jest from "../assets/svg/jest-icon.svg"
+import bootstrap from "../assets/svg/bootstrap1.svg"
+import materialize from "../assets/svg/materialize.svg"
+import gitHubPic from "../assets/svg/github-tile.svg"
+import gitPic from "../assets/svg/git.svg"
+import lighthouse from "../assets/svg/Lighthouse-01.svg"
+import heroku from "../assets/svg/heroku-icon.svg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
@@ -14,7 +26,6 @@ import { faStackOverflow } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import LangCard from "./card"
 import cardData from "./Data"
-import { Nav, Card, Button } from 'react-bootstrap';
 
 
 
@@ -81,7 +92,6 @@ export default function About() {
           <section id="about-main-wrapper">
             <div id="lang-tech-frame-master">
               <article className="skill-area-wrapper" id="skills">
-                <div className="skills-container">
                   <ul className="skills-btns">
                     <li className={isActive ? 'inactive' : 'active'} onClick={() => {
                       setActive("1");
@@ -98,7 +108,6 @@ export default function About() {
                     {active === "2" && <LangCard data={cardData} cardIndex={1} />}
                     {active === "3" && <LangCard data={cardData} cardIndex={2} />}
                   </div>
-                </div>
               </article>
             </div>
                 <div className="carousel-main-container">
@@ -110,7 +119,16 @@ export default function About() {
                       <img src={JQueryPic} alt="" className="carousel-img"></img>
                       <img src={BootstrapPic} alt="" className="carousel-img"></img>
                       <img src={reactPic} alt="" className="carousel-img"></img>
-                      <img src={angularPic} alt="" className="carousel-img"></img>
+                      <img src={handlebars} alt="" className="carousel-img"></img>
+                      <img src={node} alt="" className="carousel-img"></img>
+                      <img src={mongo} alt="" className="carousel-img"></img>
+                      <img src={mySql} alt="" className="carousel-img"></img>
+                      <img src={express} alt="" className="carousel-img"></img>
+                      <img src={bootstrap} alt="" className="carousel-img"></img>
+                      <img src={jest} alt="" className="carousel-img"></img>
+                      <img src={lighthouse} alt="" className="carousel-img"></img>
+                      <img src={gitPic} alt="" className="carousel-img"></img>
+                      <img src={gitHubPic} alt="" className="carousel-img"></img>
                       {/*reset*/}
                       <img src={htmlPic} alt="" className="carousel-img"></img>
                       <img src={cssPic} alt="" className="carousel-img"></img>
@@ -118,23 +136,16 @@ export default function About() {
                       <img src={JQueryPic} alt="" className="carousel-img"></img>
                       <img src={BootstrapPic} alt="" className="carousel-img"></img>
                       <img src={reactPic} alt="" className="carousel-img"></img>
-                      <img src={angularPic} alt="" className="carousel-img"></img>
-                      {/*reset*/}
-                      <img src={htmlPic} alt="" className="carousel-img"></img>
-                      <img src={cssPic} alt="" className="carousel-img"></img>
-                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
-                      <img src={JQueryPic} alt="" className="carousel-img"></img>
-                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
-                      <img src={reactPic} alt="" className="carousel-img"></img>
-                      <img src={angularPic} alt="" className="carousel-img"></img>
-                      {/*reset*/}
-                      <img src={htmlPic} alt="" className="carousel-img"></img>
-                      <img src={cssPic} alt="" className="carousel-img"></img>
-                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
-                      <img src={JQueryPic} alt="" className="carousel-img"></img>
-                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
-                      <img src={reactPic} alt="" className="carousel-img"></img>
-                      <img src={angularPic} alt="" className="carousel-img"></img>
+                      <img src={handlebars} alt="" className="carousel-img"></img>
+                      <img src={node} alt="" className="carousel-img"></img>
+                      <img src={mongo} alt="" className="carousel-img"></img>
+                      <img src={mySql} alt="" className="carousel-img"></img>
+                      <img src={express} alt="" className="carousel-img"></img>
+                      <img src={bootstrap} alt="" className="carousel-img"></img>
+                      <img src={jest} alt="" className="carousel-img"></img>
+                      <img src={lighthouse} alt="" className="carousel-img"></img>
+                      <img src={gitPic} alt="" className="carousel-img"></img>
+                      <img src={gitHubPic} alt="" className="carousel-img"></img>
                     </div>
                   </div>
                 </div>
@@ -145,7 +156,16 @@ export default function About() {
       <section id="projects-info">
         <div className="title-border-feature"></div>
         <div id="feature-title" className="border-b"><i>FEATURED PROJECTS</i></div>
-        <div className="title-border-feature"></div>
+        <div className="project-cont-wrapper">
+          <div className="project-container">
+            <div id="pro-1" className="project"></div>
+            <div id="pro-2" className="project"></div>
+            <div id="pro-3" className="project"></div>
+            <div id="pro-4" className="project"></div>
+            <div id="pro-5" className="project"></div>
+            <div id="pro-6" className="project"></div>
+          </div>
+        </div>
       </section>
 
     </section>
