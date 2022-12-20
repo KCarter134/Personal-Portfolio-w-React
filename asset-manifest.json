@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-w-React/static/css/main.84df8f14.css",
-    "main.js": "/Personal-Portfolio-w-React/static/js/main.0b154994.js",
+    "main.css": "/Personal-Portfolio-w-React/static/css/main.65d177aa.css",
+    "main.js": "/Personal-Portfolio-w-React/static/js/main.ee01bf4b.js",
     "static/js/787.aeca62f9.chunk.js": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js",
     "static/media/stockbuddy.png": "/Personal-Portfolio-w-React/static/media/stockbuddy.fbdec6033a4714040466.png",
     "static/media/QuizProject.png": "/Personal-Portfolio-w-React/static/media/QuizProject.feefdad6fea5b1203916.png",
     "static/media/personal.jpg": "/Personal-Portfolio-w-React/static/media/personal.e362b38c0f4c117dd6cc.jpg",
     "static/media/resume.png": "/Personal-Portfolio-w-React/static/media/resume.bf081e31cf75b831f671.png",
+    "static/media/Kyle_Carter_Resume.pdf": "/Personal-Portfolio-w-React/static/media/Kyle_Carter_Resume.49637c1b643457c98a23.pdf",
     "static/media/employeeGen.png": "/Personal-Portfolio-w-React/static/media/employeeGen.07adb0903b3d0b1b7b75.png",
     "static/media/readme.jpg": "/Personal-Portfolio-w-React/static/media/readme.32016419a9072aaefd15.jpg",
     "static/media/fullstackQuiz.png": "/Personal-Portfolio-w-React/static/media/fullstackQuiz.abd21fa95b172f2ef42f.png",
@@ -40,12 +41,12 @@
     "static/media/css1.svg": "/Personal-Portfolio-w-React/static/media/css1.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/heroku-icon.svg": "/Personal-Portfolio-w-React/static/media/heroku-icon.68909cdaab8fd7949293dc7399eeb98b.svg",
     "static/media/javascript1.svg": "/Personal-Portfolio-w-React/static/media/javascript1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.84df8f14.css.map": "/Personal-Portfolio-w-React/static/css/main.84df8f14.css.map",
-    "main.0b154994.js.map": "/Personal-Portfolio-w-React/static/js/main.0b154994.js.map",
+    "main.65d177aa.css.map": "/Personal-Portfolio-w-React/static/css/main.65d177aa.css.map",
+    "main.ee01bf4b.js.map": "/Personal-Portfolio-w-React/static/js/main.ee01bf4b.js.map",
     "787.aeca62f9.chunk.js.map": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84df8f14.css",
-    "static/js/main.0b154994.js"
+    "static/css/main.65d177aa.css",
+    "static/js/main.ee01bf4b.js"
   ]
 }
