@@ -36,6 +36,12 @@ export default function About() {
   const [active, setActive] = useState("1");
   const [currentActive, isActive] = useState(false);
 
+  const enlarge = (e) => {
+    e.target.style.height = "180px";
+  }
+  const queOut = (e) => {
+    e.target.style.height = "300px"
+  }
 
   return (
     <section id="about">
@@ -79,7 +85,28 @@ export default function About() {
               </article>
             </div>
           </div>
+
+          <section className="que-ans-cont">
+            <article className="que-cont">
+              <div onMouseOver={enlarge} onMouseOut={queOut} id="que-1" className="que-card card1"></div>
+              <div onMouseOver={enlarge} onMouseOut={queOut} id="que-2" className="que-card card2"></div>
+              <div onMouseOver={enlarge} onMouseOut={queOut} id="que-3" className="que-card card3"></div>
+              <div onMouseOver={enlarge} onMouseOut={queOut} id="que-4" className="que-card card4"></div>
+              <div onMouseOver={enlarge} onMouseOut={queOut} id="que-5" className="que-card card5"></div>
+              <div onMouseOver={enlarge} onMouseOut={queOut} id="que-6" className="que-card card6"></div>
+            </article>
+            <article className="ans-cont">
+              <div id="ans-1" className="ans-card card1"></div>
+              <div id="ans-2" className="ans-card card2"></div>
+              <div id="ans-3" className="ans-card card3"></div>
+              <div id="ans-4" className="ans-card card4"></div>
+              <div id="ans-5" className="ans-card card5"></div>
+              <div id="ans-6" className="ans-card card6"></div>
+            </article>
+          </section>
+
         </div>
+
 
 
                                                       {/* KNOWLEDGE SECTION */}

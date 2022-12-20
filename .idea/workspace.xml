@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a16d7b-7a05-49cd-a81e-80b87c96ebea" name="Changes" comment="">
+    <list default="true" id="bb28942f-e718-4d6c-9f6a-9dc0aff95a01" name="Changes" comment="merge with feature branch -&gt; main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
