@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb28942f-e718-4d6c-9f6a-9dc0aff95a01" name="Changes" comment="merge with feature branch -&gt; main" />
+    <list default="true" id="bb28942f-e718-4d6c-9f6a-9dc0aff95a01" name="Changes" comment="merge with feature branch -&gt; main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="49a16d7b-7a05-49cd-a81e-80b87c96ebea" name="Changes" comment="" />
+      <changelist id="bb28942f-e718-4d6c-9f6a-9dc0aff95a01" name="Changes" comment="merge with feature branch -&gt; main" />
       <created>1668440045591</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -54,6 +58,7 @@
       <workItem from="1669898079527" duration="5377000" />
       <workItem from="1671210214388" duration="5234000" />
       <workItem from="1671462839851" duration="3297000" />
+      <workItem from="1671558752855" duration="4057000" />
     </task>
     <servers />
   </component>

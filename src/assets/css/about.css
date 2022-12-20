@@ -15,7 +15,7 @@
 .image-container {
     position: absolute;
     left: 32vw;
-    top: 400px;
+    top: 22vh;
 }
 
 .hexagon {
@@ -59,7 +59,7 @@
 
                                         /* INTRO INFORMATION START */
 .nameplate-container-wrapper {
-    padding-top: 30vh;
+    padding-top: 22vh;
     display: flex;
 }
 
@@ -136,12 +136,13 @@
 }
 
 .que-card {
-    width: 332px;
-    height: 300px;
+    width: 170px;
+    height: 170px;
     border: 1px solid #31fa1c;
     transition: ease-out 0.3s;
     background-color: black;
     z-index: 2;
+    border-radius: 5px;
 }
 
 .ans-cont {
@@ -154,12 +155,20 @@
 }
 
 .ans-card {
-    width: 332px;
-    height: 300px;
-    border: 1px solid #31fa1c;
+    width: 170px;
+    height: 170px;
     transition: ease-out 0.3s;
-    background-color: #ffffff;
     z-index: 1;
+    border-radius: 5px;
+}
+
+.inner {
+    margin-top: 120px;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 999;
+    color: white;
 }
 
 /*.inner-que-card {*/
@@ -219,7 +228,7 @@
 
 #lang-tech-frame-master {
     width: 800px;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
                                                         /* LANGUAGES BUTTONS AND CARD RENDERS */
