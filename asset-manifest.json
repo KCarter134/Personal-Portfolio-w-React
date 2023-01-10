@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio-w-React/static/css/main.b6476c79.css",
-    "main.js": "/Personal-Portfolio-w-React/static/js/main.3b6d9db5.js",
+    "main.js": "/Personal-Portfolio-w-React/static/js/main.a4e0bb88.js",
     "static/js/787.aeca62f9.chunk.js": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js",
     "static/media/BsgLauncher.12.12.3.1964.exe": "/Personal-Portfolio-w-React/static/media/BsgLauncher.12.12.3.1964.eff79d6e9f9d34ae5a7e.exe",
     "static/media/stockbuddy.png": "/Personal-Portfolio-w-React/static/media/stockbuddy.fbdec6033a4714040466.png",
@@ -43,11 +43,11 @@
     "static/media/heroku-icon.svg": "/Personal-Portfolio-w-React/static/media/heroku-icon.68909cdaab8fd7949293dc7399eeb98b.svg",
     "static/media/javascript1.svg": "/Personal-Portfolio-w-React/static/media/javascript1.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.b6476c79.css.map": "/Personal-Portfolio-w-React/static/css/main.b6476c79.css.map",
-    "main.3b6d9db5.js.map": "/Personal-Portfolio-w-React/static/js/main.3b6d9db5.js.map",
+    "main.a4e0bb88.js.map": "/Personal-Portfolio-w-React/static/js/main.a4e0bb88.js.map",
     "787.aeca62f9.chunk.js.map": "/Personal-Portfolio-w-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6476c79.css",
-    "static/js/main.3b6d9db5.js"
+    "static/js/main.a4e0bb88.js"
   ]
 }
