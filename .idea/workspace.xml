@@ -7,12 +7,20 @@
     <list default="true" id="bb28942f-e718-4d6c-9f6a-9dc0aff95a01" name="Changes" comment="merge with feature branch -&gt; main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +66,8 @@
       <workItem from="1669898079527" duration="5377000" />
       <workItem from="1671210214388" duration="5234000" />
       <workItem from="1671462839851" duration="3297000" />
-      <workItem from="1671558752855" duration="4057000" />
+      <workItem from="1671558752855" duration="14200000" />
+      <workItem from="1673306382678" duration="6634000" />
     </task>
     <servers />
   </component>
@@ -79,5 +88,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge with feature branch -&gt; main" />
     <option name="LAST_COMMIT_MESSAGE" value="merge with feature branch -&gt; main" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/about.js</url>
+          <line>107</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

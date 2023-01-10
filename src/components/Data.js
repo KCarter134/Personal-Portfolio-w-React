@@ -4,7 +4,6 @@ import JavaScriptPic from "../assets/svg/javascript1.svg";
 import mySql from "../assets/svg/mysql1.svg"
 import reactPic from "../assets/svg/react1.svg"
 import mongo from "../assets/svg/mongodb-logo.svg"
-import JQueryPic from "../assets/svg/jquery1.svg"
 import handlebars from "../assets/svg/handlebarsjs-icon.svg"
 import node from "../assets/svg/nodejs.svg"
 import express from "../assets/svg/expressjs-icon.svg"

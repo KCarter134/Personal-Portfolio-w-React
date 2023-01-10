@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import Personal from "../assets/images/personal.jpg"
 import htmlPic from "../assets/svg/html5-1.svg"
 import cssPic from "../assets/svg/css1.svg"
 import JavaScriptPic from "../assets/svg/javascript1.svg"
 import BootstrapPic from "../assets/svg/bootstrap1.svg"
-import angularPic from "../assets/svg/angular.svg"
 import mySql from "../assets/svg/mysql1.svg"
 import reactPic from "../assets/svg/react1.svg"
 import mongo from "../assets/svg/mongodb-logo.svg"
@@ -14,11 +12,9 @@ import node from "../assets/svg/nodejs.svg"
 import express from "../assets/svg/expressjs-icon.svg"
 import jest from "../assets/svg/jest-icon.svg"
 import bootstrap from "../assets/svg/bootstrap1.svg"
-import materialize from "../assets/svg/materialize.svg"
 import gitHubPic from "../assets/svg/github-tile.svg"
 import gitPic from "../assets/svg/git.svg"
 import lighthouse from "../assets/svg/Lighthouse-01.svg"
-import heroku from "../assets/svg/heroku-icon.svg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
@@ -26,6 +22,8 @@ import { faStackOverflow } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import LangCard from "./card"
 import cardData from "./Data"
+import aboutData from "./aboutData";
+import InfoCard from "./aboutCard"
 
 
 
@@ -35,13 +33,14 @@ export default function About() {
 
   const [active, setActive] = useState("1");
   const [currentActive, isActive] = useState(false);
+  const [aboutActive, aboutSetActive] = useState("4")
 
-  const queIn = (e) => {
-    e.target.style.height = "110px";
-  }
-  const queOut = (e) => {
-    e.target.style.height = "170px"
-  }
+  // const queIn = (e) => {
+  //   e.target.style.height = "110px";
+  // }
+  // const queOut = (e) => {
+  //   e.target.style.height = "170px"
+  // }
 
   return (
     <section id="about">
@@ -86,24 +85,47 @@ export default function About() {
             </div>
           </div>
 
-          <section className="que-ans-cont">
-            <article className="que-cont">
-              <div onMouseOver={queIn} onMouseOut={queOut} id="que-1" className="que-card card1"><span>hello</span></div>
-              <div onMouseOver={queIn} onMouseOut={queOut} id="que-2" className="que-card card2"></div>
-              <div onMouseOver={queIn} onMouseOut={queOut} id="que-3" className="que-card card3"></div>
-              <div onMouseOver={queIn} onMouseOut={queOut} id="que-4" className="que-card card4"></div>
-              <div onMouseOver={queIn} onMouseOut={queOut} id="que-5" className="que-card card5"></div>
-              <div onMouseOver={queIn} onMouseOut={queOut} id="que-6" className="que-card card6"></div>
-            </article>
-            <article className="ans-cont">
-              <div id="ans-1" className="ans-card card1"><div className="inner">hello world!</div></div>
-              <div id="ans-2" className="ans-card card2"><div className="inner">hello world!</div></div>
-              <div id="ans-3" className="ans-card card3"><div className="inner">hello world!</div></div>
-              <div id="ans-4" className="ans-card card4"><div className="inner">hello world!</div></div>
-              <div id="ans-5" className="ans-card card5"><div className="inner">hello world!</div></div>
-              <div id="ans-6" className="ans-card card6"><div className="inner">hello world!</div></div>
+          <section className="about-cards-cont">
+            <article className="left-btns-cont">
+              <ul className="left-btns">
+                <li className={isActive ? 'about-card-title' : 'active'} onClick={() => {
+                  aboutSetActive("4");
+                }}>Current Goals</li>
+                <li className={isActive ? 'about-card-title' : 'active'} onClick={() => {
+                  aboutSetActive("5");
+                }}>Future Goals</li>
+                <li className={isActive ? 'about-card-title' : 'active'} onClick={() => {
+                  aboutSetActive("6");
+                }}>Fun Facts</li>
+              </ul>
+              <div className="about-card">
+                {/*<InfoCard title="a" />*/}
+                {/*<InfoCard title="b" />*/}
+                {/*<InfoCard title="c" />*/}
+                {active === "4" && <InfoCard data={aboutData} cardAct={0} />}
+                {active === "5" && <InfoCard data={aboutData} cardAct={1} />}
+                {active === "6" && <InfoCard data={aboutData} cardAct={2} />}
+              </div>
             </article>
           </section>
+          {/*<section className="que-ans-cont">*/}
+          {/*  <article className="que-cont">*/}
+          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-1" className="que-card card1">hello</div>*/}
+          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-2" className="que-card card2"></div>*/}
+          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-3" className="que-card card3"></div>*/}
+          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-4" className="que-card card4"></div>*/}
+          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-5" className="que-card card5"></div>*/}
+          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-6" className="que-card card6"></div>*/}
+          {/*  </article>*/}
+          {/*  <article className="ans-cont">*/}
+          {/*    <div id="ans-1" className="ans-card card1"><div className="inner">hello world!</div></div>*/}
+          {/*    <div id="ans-2" className="ans-card card2"><div className="inner">hello world!</div></div>*/}
+          {/*    <div id="ans-3" className="ans-card card3"><div className="inner">hello world!</div></div>*/}
+          {/*    <div id="ans-4" className="ans-card card4"><div className="inner">hello world!</div></div>*/}
+          {/*    <div id="ans-5" className="ans-card card5"><div className="inner">hello world!</div></div>*/}
+          {/*    <div id="ans-6" className="ans-card card6"><div className="inner">hello world!</div></div>*/}
+          {/*  </article>*/}
+          {/*</section>*/}
 
         </div>
 
