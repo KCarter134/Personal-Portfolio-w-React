@@ -10,7 +10,7 @@ const aboutData = [
     ],
     [
         {
-            header: "are you going to show up?",
+            header: "are you up?",
             body: "I certainly hope it shows up",
             picture: "im gunna put a picture here :)"
         }
@@ -18,7 +18,7 @@ const aboutData = [
     [
         {
             header: "are you going to show up?",
-            body: "I certainly hope it shows up",
+            body: "I cer it shows up",
             picture: "im gunna put a picture here :)"
         }
     ]

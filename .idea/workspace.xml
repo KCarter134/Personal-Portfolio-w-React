@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bb28942f-e718-4d6c-9f6a-9dc0aff95a01" name="Changes" comment="merge with feature branch -&gt; main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aboutCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aboutData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <workItem from="1671210214388" duration="5234000" />
       <workItem from="1671462839851" duration="3297000" />
       <workItem from="1671558752855" duration="14200000" />
-      <workItem from="1673306382678" duration="6634000" />
+      <workItem from="1673306382678" duration="7916000" />
     </task>
     <servers />
   </component>
@@ -94,7 +94,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/about.js</url>
-          <line>107</line>
+          <line>104</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>

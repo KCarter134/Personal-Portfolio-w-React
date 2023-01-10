@@ -99,12 +99,9 @@ export default function About() {
                 }}>Fun Facts</li>
               </ul>
               <div className="about-card">
-                {/*<InfoCard title="a" />*/}
-                {/*<InfoCard title="b" />*/}
-                {/*<InfoCard title="c" />*/}
-                {active === "4" && <InfoCard data={aboutData} cardAct={0} />}
-                {active === "5" && <InfoCard data={aboutData} cardAct={1} />}
-                {active === "6" && <InfoCard data={aboutData} cardAct={2} />}
+                {aboutActive === "4" && <InfoCard data={aboutData} cardAct={0} />}
+                {aboutActive === "5" && <InfoCard data={aboutData} cardAct={1} />}
+                {aboutActive === "6" && <InfoCard data={aboutData} cardAct={2} />}
               </div>
             </article>
           </section>
