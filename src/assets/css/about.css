@@ -393,8 +393,9 @@ ul.left-btns {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
 
+                                            /* PICTURE STYLING START */
     .main-container {
         height: 100%;
     }
@@ -424,6 +425,57 @@ ul.left-btns {
         background-image: url(../../assets/images/personal.jpg);
         border-radius: 50%;
     }
+                                            /* INTRO INFORMATION START */
+                                            /* question - answer container */
+    .left-btns-cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.left-btns {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        justify-content: center;
+    }
+
+    .about-card-title {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .about-card-title:hover {
+        border-bottom: 1px solid #31fa1c;
+        background-color: transparent;
+    }
+
+    .about-card-display-cont {
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+
+    .begin-title {
+    }
+
+    .btn-btn {
+        border: 3px solid #31fa1c;
+        border-radius: 5px;
+        text-align: center;
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+                                            /* KNOWLEDGE SECTION */
 
     #about-info {
         width: 100%;
@@ -436,7 +488,9 @@ ul.left-btns {
 
     #lang-tech-frame-master {
         width: 100%;
+
     }
+                                             /* LANGUAGES BUTTONS AND CARD RENDERS */
 
     .skill-card-container {
         width: 100vw;
@@ -448,6 +502,7 @@ ul.left-btns {
         text-align: center;
     }
 
+                                                /* Projects Section */
     #projects-info {
         display: none;
     }

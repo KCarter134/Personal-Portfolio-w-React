@@ -90,13 +90,13 @@ export default function About() {
           <section className="about-cards-cont">
             <article className="left-btns-cont">
               <ul className="left-btns">
-                <li className={isActive ? 'about-card-title' : 'active'} onClick={() => {
+                <li className={isActive ? 'about-card-title' : 'none'} onClick={() => {
                   aboutSetActive("4");
                 }}>Current Goals</li>
-                <li className={isActive ? 'about-card-title' : 'active'} onClick={() => {
+                <li className={isActive ? 'about-card-title' : 'none'} onClick={() => {
                   aboutSetActive("5");
                 }}>Future Goals</li>
-                <li className={isActive ? 'about-card-title' : 'active'} onClick={() => {
+                <li className={isActive ? 'about-card-title' : 'none'} onClick={() => {
                   aboutSetActive("6");
                 }}>Fun Facts</li>
               </ul>
