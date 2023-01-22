@@ -45,3 +45,19 @@
 .title:hover {
     color: #31fa1c;
 }
+
+@media (max-width: 1500px) {
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .title {
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        border: none;
+    }
+}

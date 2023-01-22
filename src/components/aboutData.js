@@ -3,15 +3,15 @@
 const aboutData = [
     [
         {
-            header: "are you going to show up?",
-            body: "I certainly hope it shows up",
+            header: "Currently working towards...",
+            body: "React.js",
             picture: "im gunna put a picture here :)"
         }
     ],
     [
         {
-            header: "are you up?",
-            body: "I certainly hope it shows up",
+            header: "Future goals include...",
+            body: "React.js and its frameworks lorem ipsum dubasio shiplap",
             picture: "im gunna put a picture here :)"
         }
     ],

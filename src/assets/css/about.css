@@ -231,6 +231,12 @@ ul.left-btns {
     width: 100%;
 }
 
+.dynamic-card-context {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .card-title {
     padding-left: 40px;
     color: #31fa1c;
@@ -427,6 +433,15 @@ ul.left-btns {
     }
                                             /* INTRO INFORMATION START */
                                             /* question - answer container */
+    .about-cards-cont {
+        width: 85%;
+        transform: translateX(8%);
+        border: 1px solid white;
+        border-radius: 10px;
+        background: radial-gradient(#616161, #1c1c1c);
+        margin-top: 50px;
+    }
+
     .left-btns-cont {
         display: flex;
         flex-direction: column;
@@ -437,6 +452,7 @@ ul.left-btns {
         flex-direction: row;
         gap: 60px;
         justify-content: center;
+        margin-top: 0;
     }
 
     .about-card-title {
@@ -452,19 +468,25 @@ ul.left-btns {
     }
 
     .about-card-title:hover {
-        border-bottom: 1px solid #31fa1c;
+        border-bottom: 2px solid #31fa1c;
         background-color: transparent;
     }
 
-    .about-card-display-cont {
-        width: 80%;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-        align-self: center;
+    .about-card {          /* poorly worded card container */
+        height: 200px;
     }
 
-    .begin-title {
+    .about-card-display-cont {
+        margin-top: 30px;
+    }
+
+    .dynamic-card-body {
+        height: 100%;
+        background: transparent;
+    }
+
+    .dynamic-card-context {
+        justify-content: space-evenly;
     }
 
     .btn-btn {
@@ -481,16 +503,18 @@ ul.left-btns {
         width: 100%;
         margin-right: 0;
     }
-
     .green-filler-right {
         display: none;
     }
-
+    #about-main-wrapper {
+        width: 100%;
+    }
     #lang-tech-frame-master {
         width: 100%;
-
     }
-                                             /* LANGUAGES BUTTONS AND CARD RENDERS */
+
+
+                                             /* languages buttons and card renders */
 
     .skill-card-container {
         width: 100vw;
@@ -500,6 +524,34 @@ ul.left-btns {
         font-size: 10vw;
         width: 100%;
         text-align: center;
+    }
+
+    .skills-btns {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .inactive {
+        font-size: 12px;
+        border: 3px solid #31fa1c;
+        border-radius: 8px;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .card-body {
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 50px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-context img {
+        height: 30px;
     }
 
                                                 /* Projects Section */
