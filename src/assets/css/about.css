@@ -168,66 +168,6 @@ ul.left-btns {
     padding-bottom: 10px;
 }
 
-/*.que-ans-cont {*/
-/*    padding-top: 80px;*/
-/*}*/
-
-/*.que-cont {*/
-/*    position: absolute;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    margin-left: 20px;*/
-/*    gap: 50px;*/
-/*    z-index: 2;*/
-/*}*/
-
-/*.que-card {*/
-/*    width: 170px;*/
-/*    height: 170px;*/
-/*    border: 3px solid #31fa1c;*/
-/*    transition: ease-out 0.3s;*/
-/*    background-color: black;*/
-/*    z-index: 2;*/
-/*    border-radius: 5px;*/
-/*}*/
-
-/*.que-card p {*/
-/*    z-index: 1;*/
-/*}*/
-
-/*.ans-cont {*/
-/*    position: absolute;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    margin-left: 20px;*/
-/*    gap: 50px;*/
-/*    z-index: 1;*/
-/*}*/
-
-/*.ans-card {*/
-/*    width: 170px;*/
-/*    height: 170px;*/
-/*    transition: ease-out 0.3s;*/
-/*    z-index: 1;*/
-/*    border-radius: 5px;*/
-/*}*/
-
-/*.inner {*/
-/*    margin-top: 120px;*/
-/*    font-size: 23px;*/
-/*    font-weight: 600;*/
-/*    text-align: center;*/
-/*    z-index: 999;*/
-/*    color: white;*/
-/*}*/
-
-/*.que-hover {*/
-/*    position: relative;*/
-/*    margin-top: 0;*/
-/*    height: 200px;*/
-/*    transition: ease-in 0.3s;*/
-/*    z-index: 999;*/
-/*}*/
 
                                                     /* KNOWLEDGE SECTION */
 #main-info {
@@ -253,15 +193,6 @@ ul.left-btns {
     font-size: 100px;
     font-weight: 500;
     color: white;
-}
-
-#about-title:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    padding-top: 20px;
-    border-bottom: 1px solid black;
 }
 
 #about-main-wrapper {
@@ -445,7 +376,7 @@ ul.left-btns {
 .project-container {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    transform: translateX(29%);
+
     row-gap: 30px;
     column-gap: 30px;
     padding-top: 30px;
@@ -456,6 +387,121 @@ ul.left-btns {
     width: 300px;
     height: 300px;
     border: 1px solid white;
-    background: rgb(86,169,199);
-    background: radial-gradient(circle, rgba(86,169,199,1) 34%, rgba(0,255,1,1) 100%, rgba(1,203,255,1) 100%);
+    background: #000000;
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+    .main-container {
+        height: 100%;
+    }
+
+    .nameplate-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-container {
+        position: relative;
+        top: 10px;
+        left: 2vw;
+        height: 200px;
+    }
+
+    .hexagon,
+    .hexagon-in1,
+    .hexagon2,
+    .hexagon-in2 {
+        display: none;
+    }
+
+    .media-change {
+        height: 200px;
+        width: 200px;
+        background-image: url(../../assets/images/personal.jpg);
+        border-radius: 50%;
+    }
+
+    #about-info {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .green-filler-right {
+        display: none;
+    }
+
+    #lang-tech-frame-master {
+        width: 100%;
+    }
+
+    .skill-card-container {
+        width: 100vw;
+    }
+
+    #about-title {
+        font-size: 10vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    #projects-info {
+        display: none;
+    }
+
+    .project-container {
+        display: none;
+    }
+
+    .project {
+        display: none;
+    }
+
+                                                /* Carousel Container */
+
+    .carousel-main-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        width: 120%;
+        margin-top: 150px;
+        box-sizing: border-box;
+    }
+
+    .carousel-wrapper {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .carousel-items {
+        display: flex;
+        gap: 50px;
+        animation: carousel 20s linear infinite;
+    }
+
+    .carousel-img {
+        display: block;
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+
+    @keyframes carousel {
+        0% {
+            transform: translateX(0%);
+        }
+        100%{
+            transform: translateX(-400%);
+        }
+    }
+
+    /** {*/
+    /*    overflow: scroll;*/
+    /*}*/
+
+
 }

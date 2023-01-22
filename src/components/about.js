@@ -51,7 +51,9 @@ export default function About() {
             <div className="start-name-title"> My Name Is</div>
             <div className="my-name"><i> Kyle Carter.</i></div>
 
+
               <div className="image-container">
+                <div className="media-change"></div>
                 <div className="hexagon hexagon2">
                   <div className="hexagon-in1">
                     <div className="hexagon-in2"></div>
@@ -105,24 +107,6 @@ export default function About() {
               </div>
             </article>
           </section>
-          {/*<section className="que-ans-cont">*/}
-          {/*  <article className="que-cont">*/}
-          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-1" className="que-card card1">hello</div>*/}
-          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-2" className="que-card card2"></div>*/}
-          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-3" className="que-card card3"></div>*/}
-          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-4" className="que-card card4"></div>*/}
-          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-5" className="que-card card5"></div>*/}
-          {/*    <div onMouseOver={queIn} onMouseOut={queOut} id="que-6" className="que-card card6"></div>*/}
-          {/*  </article>*/}
-          {/*  <article className="ans-cont">*/}
-          {/*    <div id="ans-1" className="ans-card card1"><div className="inner">hello world!</div></div>*/}
-          {/*    <div id="ans-2" className="ans-card card2"><div className="inner">hello world!</div></div>*/}
-          {/*    <div id="ans-3" className="ans-card card3"><div className="inner">hello world!</div></div>*/}
-          {/*    <div id="ans-4" className="ans-card card4"><div className="inner">hello world!</div></div>*/}
-          {/*    <div id="ans-5" className="ans-card card5"><div className="inner">hello world!</div></div>*/}
-          {/*    <div id="ans-6" className="ans-card card6"><div className="inner">hello world!</div></div>*/}
-          {/*  </article>*/}
-          {/*</section>*/}
 
         </div>
 
@@ -156,45 +140,45 @@ export default function About() {
                   </div>
               </article>
             </div>
-                <div className="carousel-main-container">
-                  <div className="carousel-wrapper">
-                    <div className="carousel-items">
-                      <img src={htmlPic} alt="" className="carousel-img"></img>
-                      <img src={cssPic} alt="" className="carousel-img"></img>
-                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
-                      <img src={JQueryPic} alt="" className="carousel-img"></img>
-                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
-                      <img src={reactPic} alt="" className="carousel-img"></img>
-                      <img src={handlebars} alt="" className="carousel-img"></img>
-                      <img src={node} alt="" className="carousel-img"></img>
-                      <img src={mongo} alt="" className="carousel-img"></img>
-                      <img src={mySql} alt="" className="carousel-img"></img>
-                      <img src={express} alt="" className="carousel-img"></img>
-                      <img src={bootstrap} alt="" className="carousel-img"></img>
-                      <img src={jest} alt="" className="carousel-img"></img>
-                      <img src={lighthouse} alt="" className="carousel-img"></img>
-                      <img src={gitPic} alt="" className="carousel-img"></img>
-                      <img src={gitHubPic} alt="" className="carousel-img"></img>
-                      {/*reset*/}
-                      <img src={htmlPic} alt="" className="carousel-img"></img>
-                      <img src={cssPic} alt="" className="carousel-img"></img>
-                      <img src={JavaScriptPic} alt="" className="carousel-img"></img>
-                      <img src={JQueryPic} alt="" className="carousel-img"></img>
-                      <img src={BootstrapPic} alt="" className="carousel-img"></img>
-                      <img src={reactPic} alt="" className="carousel-img"></img>
-                      <img src={handlebars} alt="" className="carousel-img"></img>
-                      <img src={node} alt="" className="carousel-img"></img>
-                      <img src={mongo} alt="" className="carousel-img"></img>
-                      <img src={mySql} alt="" className="carousel-img"></img>
-                      <img src={express} alt="" className="carousel-img"></img>
-                      <img src={bootstrap} alt="" className="carousel-img"></img>
-                      <img src={jest} alt="" className="carousel-img"></img>
-                      <img src={lighthouse} alt="" className="carousel-img"></img>
-                      <img src={gitPic} alt="" className="carousel-img"></img>
-                      <img src={gitHubPic} alt="" className="carousel-img"></img>
-                    </div>
-                  </div>
-                </div>
+                {/*<div className="carousel-main-container">*/}
+                {/*  <div className="carousel-wrapper">*/}
+                {/*    <div className="carousel-items">*/}
+                {/*      <img src={htmlPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={cssPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={JavaScriptPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={JQueryPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={BootstrapPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={reactPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={handlebars} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={node} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={mongo} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={mySql} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={express} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={bootstrap} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={jest} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={lighthouse} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={gitPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={gitHubPic} alt="" className="carousel-img"></img>*/}
+                {/*      /!*reset*!/*/}
+                {/*      <img src={htmlPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={cssPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={JavaScriptPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={JQueryPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={BootstrapPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={reactPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={handlebars} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={node} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={mongo} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={mySql} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={express} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={bootstrap} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={jest} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={lighthouse} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={gitPic} alt="" className="carousel-img"></img>*/}
+                {/*      <img src={gitHubPic} alt="" className="carousel-img"></img>*/}
+                {/*    </div>*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </section>
             </article>
           </section>
