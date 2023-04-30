@@ -15,7 +15,7 @@
 .image-container {
     position: absolute;
     left: 32vw;
-    top: 22vh;
+    top: 28vh;
 }
 
 .hexagon {
@@ -59,7 +59,7 @@
 
                                         /* INTRO INFORMATION START */
 .nameplate-container-wrapper {
-    padding-top: 22vh;
+    padding-top: 28vh;
     display: flex;
 }
 
@@ -122,38 +122,63 @@
 
                                                 /* question - answer container */
 
-.left-btns-cont {
+.about-card {
+    height: 350px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
-ul.left-btns {
-    list-style-type: none;
+.about-cards-cont-wrapper {
+}
+
+.about-cards-cont {
+    /* background: radial-gradient(#f0fdff, #def3ff); */
+    background-color: #def3ff;
+    margin-top: 150px;
+    /* width: 80%;
+    transform: translateX(12%); */
+    border-top: 3px solid #31fa1c;
+    border-bottom: 3px solid #31fa1c;
+
+}
+
+.about-question-cont {
     display: flex;
     flex-direction: column;
-    float: left;
-    gap: 120px;
-    margin-top: 70px;
-    margin-left: -39px;
-    text-align: center;
+}
+
+ul.about-question {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #31fa1c; */
+    height: 60px;
 }
 
 .about-card-title {
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
     cursor: pointer;
-    border: 3px solid #31fa1c;
+    border: none;
     border-radius: 8px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 30px;
+    color: #202020;
+    text-align: center;
+    width: 300px;
+    font-weight: 500;
+
 }
 
 .about-card-title:hover {
-    background-color: #31fa1c;
+    border-bottom: 3px solid #31fa1c;
+    background-color: transparent;
+    animation: shake 150ms;
 }
 
 .about-card {
+    /* border-top: 3px solid #31fa1c; */
 }
 
 .begin-title {
@@ -177,14 +202,14 @@ ul.left-btns {
 
 #about-info {
     margin-right: 20px;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 .green-filler-right {
     width: 20px;
     margin-right: 20px;
     background-color: #31fa1c;
-    margin-top: 100px;
+    margin-top: 220px;
 
 }
 
@@ -233,8 +258,10 @@ ul.left-btns {
 
 .dynamic-card-context {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    color: #000000;
+    font-size: 25px;
 }
 
 .card-title {
@@ -402,9 +429,9 @@ ul.left-btns {
 @media (max-width: 1500px) {
 
                                             /* PICTURE STYLING START */
-    .main-container {
+    /* .main-container {
         height: 100%;
-    }
+    } */
 
     .nameplate-container {
         display: flex;
@@ -433,47 +460,15 @@ ul.left-btns {
     }
                                             /* INTRO INFORMATION START */
                                             /* question - answer container */
-    .about-cards-cont {
-        width: 85%;
-        transform: translateX(8%);
-        border: 1px solid white;
-        border-radius: 10px;
-        background: radial-gradient(#616161, #1c1c1c);
-        margin-top: 50px;
-    }
 
-    .left-btns-cont {
-        display: flex;
-        flex-direction: column;
-    }
 
-    ul.left-btns {
+
+    ul.about-question {
         display: flex;
         flex-direction: row;
         gap: 60px;
         justify-content: center;
         margin-top: 0;
-    }
-
-    .about-card-title {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        cursor: pointer;
-        border: none;
-        border-radius: 8px;
-        padding: 5px;
-        font-size: 20px;
-    }
-
-    .about-card-title:hover {
-        border-bottom: 2px solid #31fa1c;
-        background-color: transparent;
-    }
-
-    .about-card {          /* poorly worded card container */
-        height: 200px;
     }
 
     .about-card-display-cont {
@@ -483,10 +478,6 @@ ul.left-btns {
     .dynamic-card-body {
         height: 100%;
         background: transparent;
-    }
-
-    .dynamic-card-context {
-        justify-content: space-evenly;
     }
 
     .btn-btn {
@@ -517,7 +508,6 @@ ul.left-btns {
                                              /* languages buttons and card renders */
 
     .skill-card-container {
-        width: 100vw;
     }
 
     #about-title {
@@ -612,3 +602,17 @@ ul.left-btns {
 
 
 }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-2px, 0px) rotate(1deg); }
+    30% { transform: translate(2px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-2px, 1px) rotate(0deg); }
+    70% { transform: translate(2px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
