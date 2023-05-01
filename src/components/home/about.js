@@ -91,6 +91,9 @@ export default function About() {
         </div>
 
         <main className="about-cards-cont-wrapper">
+          <div className="about-me-title-cont">
+            <div className="about-me-title"><i>ABOUT ME</i></div>
+          </div>
             <section className="about-cards-cont">
               <article className="about-question-cont">
                 <ul className="about-question">
@@ -122,21 +125,21 @@ export default function About() {
         <article id="about-info">
           <div id="about-title-cont">
             <div id="about-title"><i>MY KNOWLEDGE</i></div>
-            <div className="about-title-underline1"></div>
-            <div className="about-title-underline2"></div>
+            {/* <div className="about-title-underline1"></div>
+            <div className="about-title-underline2"></div> */}
           </div>
           {/* Beginning of Language & Technology Area */}
           <section id="about-main-wrapper">
             <div id="lang-tech-frame-master">
               <article className="skill-area-wrapper" id="skills">
                   <ul className="skills-btns">
-                    <li className={isActive ? 'inactive' : 'active'} onClick={() => {
+                    <li className="skill-btn" onClick={() => {
                       setActive("1");
                     }}>Languages</li>
-                    <li className={isActive ? 'inactive' : 'active'} onClick={() => {
+                    <li className="skill-btn" onClick={() => {
                       setActive("2");
                     }}>Frameworks</li>
-                    <li className={isActive ? 'inactive' : 'active'} onClick={() => {
+                    <li className="skill-btn" onClick={() => {
                       setActive("3");
                     }}>Dev-Tools</li>
                   </ul>
