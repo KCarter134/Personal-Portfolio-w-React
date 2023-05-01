@@ -1,15 +1,16 @@
 .header-container {
     position: absolute;
-    top: 4vh;
+    top: 6vh;
     transform:translateY(-50%);
-    width: 100vw;
+    width: 95vw;
     display: flex;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .name-container {
     transform: translateY(10%);
-    margin-left: 3.5vw;
+    margin-left: 5vw;
 }
 
 .name {
@@ -39,7 +40,6 @@
     font-size: 25px;
     font-weight: 600;
     color: white;
-    border-right: 2px solid white;
 }
 
 .title:hover {

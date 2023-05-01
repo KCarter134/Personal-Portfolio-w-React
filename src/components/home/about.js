@@ -45,49 +45,52 @@ export default function About() {
   return (
     <section id="about">
         <div className="main-container">
-          <div className="nameplate-container-wrapper">
-          <div className="green-filler"></div>
-          <div className="nameplate-container">
-            <div className="start-name-title"> My Name Is</div>
-            <div className="my-name"><i> Kyle Carter.</i></div>
+          <div className="main-border">
+            <div className="nameplate-container-wrapper">
+            {/* <div className="green-filler"></div> */}
+            <div className="nameplate-container">
+              <div className="start-name-title"> My Name Is</div>
+              <div className="my-name"><i> Kyle Carter.</i></div>
 
 
-              <div className="image-container">
-                <div className="media-change"></div>
-                <div className="hexagon hexagon2">
-                  <div className="hexagon-in1">
-                    <div className="hexagon-in2"></div>
+                <div className="image-container">
+                  <div className="media-change"></div>
+                  <div className="hexagon hexagon2">
+                    <div className="hexagon-in1">
+                      <div className="hexagon-in2"></div>
+                    </div>
                   </div>
                 </div>
+
+                <article className="text-container">
+                  <p className="dev-title">Front-End Developer / Partial Back-end</p>
+                  <p className="info about-desc">
+                    After starting to learn the front-end, I decided to begin a
+                    journey of fullstack development
+                  </p>
+                  <p className="info about-desc-extra">
+                    With a passion for web development and a history in front end, <br /> I intend
+                    on utilizing the skills obtained in both traditional schooling and skills
+                    learned in my free time!
+                  </p>
+
+                  <div className="contact-flex-cont">
+                    <div className="contact-icon-text">Join Me</div>
+                    <div className="contact-icon-container">
+                      <FontAwesomeIcon className="icon github" icon={faGithub}></FontAwesomeIcon>
+                      <FontAwesomeIcon className="icon linkedin" icon={faLinkedin}></FontAwesomeIcon>
+                      <FontAwesomeIcon className="icon stack" icon={faStackOverflow}></FontAwesomeIcon>
+                      <FontAwesomeIcon className="icon twitter" icon={faTwitter}></FontAwesomeIcon>
+                    </div>
+                  </div>
+
+                </article>
               </div>
-
-              <article className="text-container">
-                <p className="dev-title">Front-End Developer / Partial Back-end</p>
-                <p className="info about-desc">
-                  After starting to learn the front-end, I decided to begin a
-                  journey of fullstack development
-                </p>
-                <p className="info about-desc-extra">
-                  With a passion for web development and a history in front end, <br /> I intend
-                  on utilizing the skills obtained in both traditional schooling and skills
-                  learned in my free time!
-                </p>
-
-                <div className="contact-flex-cont">
-                  <div className="contact-icon-text">Join Me</div>
-                  <div className="contact-icon-container">
-                    <FontAwesomeIcon className="icon github" icon={faGithub}></FontAwesomeIcon>
-                    <FontAwesomeIcon className="icon linkedin" icon={faLinkedin}></FontAwesomeIcon>
-                    <FontAwesomeIcon className="icon stack" icon={faStackOverflow}></FontAwesomeIcon>
-                    <FontAwesomeIcon className="icon twitter" icon={faTwitter}></FontAwesomeIcon>
-                  </div>
-                </div>
-
-              </article>
             </div>
           </div>
+        </div>
 
-          <main className="about-cards-cont-wrapper">
+        <main className="about-cards-cont-wrapper">
             <section className="about-cards-cont">
               <article className="about-question-cont">
                 <ul className="about-question">
@@ -110,8 +113,6 @@ export default function About() {
             </section>
           </main>
 
-        </div>
-
 
 
                                                       {/* KNOWLEDGE SECTION */}
@@ -119,7 +120,11 @@ export default function About() {
       <section id="main-info">
         <div className="green-filler-right"></div>
         <article id="about-info">
-          <div id="about-title"><i>MY KNOWLEDGE</i></div>
+          <div id="about-title-cont">
+            <div id="about-title"><i>MY KNOWLEDGE</i></div>
+            <div className="about-title-underline1"></div>
+            <div className="about-title-underline2"></div>
+          </div>
           {/* Beginning of Language & Technology Area */}
           <section id="about-main-wrapper">
             <div id="lang-tech-frame-master">
