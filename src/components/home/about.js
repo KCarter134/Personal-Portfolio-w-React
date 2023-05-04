@@ -91,9 +91,10 @@ export default function About() {
         </div>
 
         <main className="about-cards-cont-wrapper">
-          <div className="about-me-title-cont">
-            <div className="about-me-title"><i>ABOUT ME</i></div>
-          </div>
+          <div className="about-cont">
+            <div className="about-me-title-cont">
+              <div className="about-me-title"><i>ABOUT ME</i></div>
+            </div>
             <section className="about-cards-cont">
               <article className="about-question-cont">
                 <ul className="about-question">
@@ -114,6 +115,7 @@ export default function About() {
                 </div>
               </article>
             </section>
+          </div>
           </main>
 
 
@@ -121,12 +123,9 @@ export default function About() {
                                                       {/* KNOWLEDGE SECTION */}
 
       <section id="main-info">
-        <div className="green-filler-right"></div>
         <article id="about-info">
           <div id="about-title-cont">
             <div id="about-title"><i>MY KNOWLEDGE</i></div>
-            {/* <div className="about-title-underline1"></div>
-            <div className="about-title-underline2"></div> */}
           </div>
           {/* Beginning of Language & Technology Area */}
           <section id="about-main-wrapper">
