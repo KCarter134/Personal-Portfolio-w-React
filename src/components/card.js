@@ -8,7 +8,7 @@ const Card = ({ data, cardIndex }) => {
                     <div className="card-context">
                         {/*<p className="card-img">{item.image}</p>*/}
                         <p className="card-title">{item.title}</p>
-                        <img src={item.image} alt={'SOME TING WONG'}/>
+                        <img src={item.image} alt={'language picture'}/>
                     </div>
                 </div>
             ))}

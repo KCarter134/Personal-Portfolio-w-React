@@ -1,7 +1,7 @@
 
 
 #about {
-    background: radial-gradient(#1d1d1d,#000000);
+    background-color: #003557;
     color: white;
 }
 
@@ -16,7 +16,6 @@
     transform: translate(-50%, -50%);
     width: 95vw;
     height: 95vh;
-    border: 2px solid #31fa1c;
     border-radius: 20px;
     z-index: 0;
 
@@ -27,7 +26,7 @@
 
 .image-container {
     position: absolute;
-    left: 33vw;
+    left: 50vw;
     top: 30vh;
 }
 
@@ -74,7 +73,8 @@
 .nameplate-container-wrapper {
     padding-top: 30vh;
     display: flex;
-    padding-left: 1vw;
+    justify-content: center;
+    padding-left: 5vw;
 }
 
 .green-filler {
@@ -139,99 +139,96 @@
 
 
 .about-cards-cont-wrapper {
-    margin-left: 2vw;
     margin-top: 200px;
 }
 
 .about-cont {
-    width: 60vw;
+
 }
 
-.about-card {
-    height: 350px;
-    width: 100%;
+.about-me-title-cont {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-
-.about-card-display-cont {
-    width: 90%;
-    height: 85%;
-    border: 3px solid #1d1d1d;
-    border-radius: 10px;
-}
-
-
-
-.about-me-title-border {
-    width: 100%;
-    height: 2px;
-    background-color: #31fa1c;
+    margin-bottom: 10vh;
+    margin-left: 22vw;
 }
 
 .about-me-title {
     font-size: 70px;
     text-align: center;
     font-weight: 600;
+    border: 6px dashed #31fa1c;
+    padding: 10px 50px;
+    border-radius: 80px 10px;
 }
 
 .about-cards-cont {
-    /* background: radial-gradient(#f0fdff, #def3ff); */
-    background-color: #def3ff;
-    /* width: 80%;
-    transform: translateX(12%); */
-    border: 3px solid #31fa1c;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .about-question-cont {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    width: 70vw;
+    justify-content: center;
 }
 
 ul.about-question {
     list-style-type: none;
+    margin-right: 30px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    
     /* background-color: #31fa1c; */
-    height: 60px;
-    background-color: #1d1d1d;
-    margin: 0;
-    border-top-right-radius: 19px;
-    border-top-left-radius: 19px;
-
 }
 
 .about-card-title {
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    padding: 5px;
-    font-size: 25px;
-    color: #def3ff;
-    text-align: center;
+    font-size: 20px;
     font-weight: 500;
-
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: right;
 }
 
-.about-card-title:hover {
+.li-title {
+    text-align: center;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+
+.li-title:hover {
     border-bottom: 3px solid #31fa1c;
-    /* border-top: 3px solid #31fa1c; */
     background-color: transparent;
-    /* animation: shake 150ms; */
 }
 
-.begin-title {
+.about-card {
+    height: 350px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.about-card-display-cont {
+    height: 350px;
+    width: 100%;
+    border-left: 3px solid #31fa1c;
+    margin-left: 3px;
+}
+
+.dynamic-card-context {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.about-header-cont {
+    width: 100%;
 }
 
 .btn-btn {
@@ -349,15 +346,7 @@ ul.about-question {
     height: 80%;
 }
 
-.dynamic-card-context {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    color: #000000;
-    font-size: 25px;
-}
+
 
 .card-title {
     padding-left: 40px;
