@@ -3,8 +3,16 @@
 const aboutData = [
     [
         {
-            header: "Finding a great company sdfsdfsdfdsfafgsdfgsrbdsfybdbf",
-            body: "React.js",
+            header: "Forward reaching company",
+            body: "Lorem ipsum hust ndkjf  jalksdf asdl;fnka;lsdkjf;l asd;lfkja sdf as  asl;kdfj;lasdf;lj   fdsl;ajkfl; f f j fjdksaa;slkjsdf"
+            // {
+            //     list1: "allows for growth in skills with new technologies",
+            //     list2: "filler stuff for the hell of it "
+            // }
+        },
+        {
+            header: "tester",
+            body: "lorem ipsum and whatnot"
         }
     ],
     [

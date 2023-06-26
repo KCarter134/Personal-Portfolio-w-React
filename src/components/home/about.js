@@ -93,20 +93,22 @@ export default function About() {
         <main className="about-cards-cont-wrapper">
           <div className="about-cont">
             <div className="about-me-title-cont">
-              <span className="about-me-title"><i>ABOUT ME</i></span>
+              <div className="title-line-left title-line"></div>
+              <div className="about-me-title"><i>ABOUT ME</i></div>
+              <div className="title-line-right title-line"></div>
             </div>
             <section className="about-cards-cont">
               <article className="about-question-cont">
                 <ul className="about-question">
                   <li className={isActive ? 'about-card-title' : 'none'} onClick={() => {
                     aboutSetActive("4");
-                  }}><span className="li-title">Current Goals</span></li>
+                  }}><span className="li-title">-Current Goals-</span></li>
                   <li className={isActive ? 'about-card-title' : 'none'} onClick={() => {
                     aboutSetActive("5");
-                  }}><span className="li-title">Future Goals</span></li>
+                  }}><span className="li-title">-Future Goals-</span></li>
                   <li className={isActive ? 'about-card-title' : 'none'} onClick={() => {
                     aboutSetActive("6");
-                  }}><span className="li-title">Fun Facts</span></li>
+                  }}><span className="li-title">-Fun Facts-</span></li>
                 </ul>
                 <div className="about-card">
                   {aboutActive === "4" && <InfoCard data={aboutData} cardAct={0} />}

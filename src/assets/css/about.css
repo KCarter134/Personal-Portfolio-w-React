@@ -65,8 +65,8 @@
 }
 
 .hexagon2 {
-    width: 550px;
-    height: 440px;
+    width: 450px;
+    height: 340px;
 }
 
                                         /* INTRO INFORMATION START */
@@ -139,37 +139,57 @@
 
 
 .about-cards-cont-wrapper {
-    margin-top: 200px;
+
 }
 
 .about-cont {
-
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60vw;
+    justify-content: center;
 }
 
 .about-me-title-cont {
     display: flex;
-    margin-bottom: 10vh;
-    margin-left: 22vw;
+    margin-left: 140px;
 }
 
 .about-me-title {
-    font-size: 70px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
-    border: 6px dashed #31fa1c;
-    padding: 10px 50px;
-    border-radius: 80px 10px;
+    border: 4px dashed #31fa1c;
+    padding: 10px 25px;
+    border-radius: 70px 10px;
+}
+
+.title-line {
+    width: 2px;
+    background-color: #31fa1c;
+    transform: rotate(90deg);
+}
+
+.title-line-left {
+    margin-right: 29px;
+}
+
+.title-line-right {
+    margin-left: 29px;
 }
 
 .about-cards-cont {
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+
 }
 
 .about-question-cont {
     display: flex;
-    width: 70vw;
+    width: 100%;
     justify-content: center;
 }
 
@@ -178,8 +198,7 @@ ul.about-question {
     margin-right: 30px;
     display: flex;
     flex-direction: column;
-    
-    /* background-color: #31fa1c; */
+    padding: 0;
 }
 
 .about-card-title {
@@ -201,21 +220,27 @@ ul.about-question {
 
 .li-title:hover {
     border-bottom: 3px solid #31fa1c;
+    border-top: 3px solid #31fa1c;
     background-color: transparent;
 }
 
 .about-card {
     height: 350px;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+.about-card-list {
+    list-style-type: none;
 }
 
 .about-card-display-cont {
     height: 350px;
     width: 100%;
     border-left: 3px solid #31fa1c;
+    border-right: 3px solid #31fa1c;
     margin-left: 3px;
 }
 
@@ -227,8 +252,8 @@ ul.about-question {
     margin-left: 30px;
 }
 
-.about-header-cont {
-    width: 100%;
+.aboutcard-header-cont {
+    width: 80%;
 }
 
 .btn-btn {
@@ -548,16 +573,28 @@ ul.about-question {
         height: 100%;
     } */
 
+    .nameplate-container-wrapper {
+        padding-top: 20vh;
+    }
+
     .nameplate-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .start-name-title {
+        font-size: 25px;
+    }
+
+    .my-name {
+        font-size: 40px;
     }
 
     .image-container {
         position: relative;
         top: 10px;
         left: 2vw;
-        height: 200px;
+        height: 100px;
     }
 
     .hexagon,
@@ -568,15 +605,48 @@ ul.about-question {
     }
 
     .media-change {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
         background-image: url(../../assets/images/personal.jpg);
         border-radius: 50%;
     }
+
+    .dev-title,
+    .contact-icon-text {
+        font-size: 20px;
+    }
+
+    .info,
+    .about-desc,
+    .about-desc-extra {
+        font-size: 12px
+    };
+
+    .icon svg {
+        height: 20px;
+        width: 20px;
+    };
                                             /* INTRO INFORMATION START */
                                             /* question - answer container */
 
+    .about-cards-cont-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-cont {
+        margin: 0;
+    }
 
+    .about-me-title-cont {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .about-me-title {
+        font-size: 30px;
+    }
 
     ul.about-question {
         display: flex;
@@ -586,17 +656,39 @@ ul.about-question {
         margin-top: 0;
     }
 
+    .about-card-title {
+        font-size: 15px;
+    }
+
+    .about-question-cont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
     .about-card {
     }
 
     .about-card-display-cont {
-        margin-top: 30px;
-        width: 100%;
+        width: 60vw;
+        /* margin-left: 120px; */
+    }
+
+    .dynamic-card-context {
+        width: 60vw;
+        margin: 0;
     }
 
     .dynamic-card-body {
+        font-size: 12px;
         height: 100%;
         background: transparent;
+    }
+
+    .dynamic-card-title {
+        font-size: 15px;
+        margin-left: 10px;
     }
 
     .btn-btn {
@@ -608,10 +700,21 @@ ul.about-question {
         padding-bottom: 10px;
     }
                                             /* KNOWLEDGE SECTION */
+    #main-info {
+        display: flex;
+        justify-content: center;
+    }
 
     #about-info {
-        width: 100%;
+        width: 80%;
         margin-right: 0;
+        margin-top: 130px;
+    }
+
+    #about-title {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
     }
     .green-filler-right {
         display: none;
@@ -629,15 +732,14 @@ ul.about-question {
     .skill-card-container {
     }
 
-    #about-title {
-        font-size: 10vw;
-        width: 100%;
-        text-align: center;
-    }
-
     .skills-btns {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .skill-btn {
+        font-size: 20px;
     }
 
     .inactive {
@@ -721,14 +823,14 @@ ul.about-question {
         object-fit: cover;
     }
 
-    @keyframes carousel {
+    /* @keyframes carousel {
         0% {
             transform: translateX(0%);
         }
         100%{
             transform: translateX(-400%);
         }
-    }
+    } */
 
     /** {*/
     /*    overflow: scroll;*/
@@ -737,11 +839,7 @@ ul.about-question {
 
 }
 
-@media (max-width: 1000px) {
-
-}
-
-@keyframes shake {
+/* @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
     20% { transform: translate(-2px, 0px) rotate(1deg); }
@@ -753,4 +851,4 @@ ul.about-question {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+  } */
